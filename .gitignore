@@ -1,0 +1,36 @@
+# VuePress files
+.temp
+.cache
+docs/.vuepress/.temp/
+docs/.vuepress/.cache/
+docs/.vuepress/dist/
+
+# Dist files
+lib/
+
+# Test temp files
+**/__fixtures__/.temp/
+
+# Test coverage files
+coverage/
+
+# dependencies
+/node_modules
+/npm-debug.log*
+/yarn-error.log
+/yarn.lock
+/package-lock.json
+
+# Log files
+*.log
+
+# Typescript build info
+*.tsbuildinfo
+
+# misc
+.DS_Store
+/coverage
+
+# ide
+/.vscode
+/.idea
