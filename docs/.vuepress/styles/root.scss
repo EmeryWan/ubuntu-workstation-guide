@@ -2,17 +2,17 @@
     scroll-behavior: smooth;
 
     // brand colors
-    --c-brand: #E75B25;
-    --c-brand-light: #f5834e;
+    --c-brand: #e95420;
+    --c-brand-light: #f57d49;
 
     // font vars
     --font-family: Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-         Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     --font-family-code: 'Ubuntu Mono', Consolas, Monaco, 'Andale Mono', monospace;
 }
 
 html.dark {
     // brand colors
-    --c-brand: #E75B25;
-    --c-brand-light: #f5834e;
+    --c-brand: #e95420;
+    --c-brand-light: #f57d49;
 }

@@ -1,8 +1,11 @@
 {
   "name": "ubuntu-workstation-guide",
   "version": "1.0.0",
+  "description": "使用 ubuntu 作为日常 工作 🧑🏻‍💻 娱乐 🍿 的系统",
   "main": "index.js",
   "license": "MIT",
+  "repository": "",
+  "author": "一层 <emerywan@gamil.com>",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
