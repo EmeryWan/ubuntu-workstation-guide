@@ -7,6 +7,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: 'zh-CN',
   title: 'ubuntu 简明指南',
   description: '使用 ubuntu 作为日常 工作 🧑🏻‍💻 娱乐 🍿 的系统',
+  
   head: [
     ['link', { rel: 'icon', href: ''}],
   ],
@@ -19,18 +20,19 @@ export default defineUserConfig<DefaultThemeOptions>({
     docsDir: 'docs',
     navbar: [
       {
-        text: '介绍',
-        link: '/'
+        text: '开始使用 👏',
+        link: '/guide/'
       },
       {
-        text: '使用',
-        link: '/use/'
-      },
-      {
-        text: '开发',
+        text: '开发相关 💻',
         link: '/code/'
+      },
+      {
+        text: '推荐内容 🪁',
+        link: '/tip/'
       }
     ],
+
     sidebar: {
       '/code': [
         {
@@ -42,22 +44,24 @@ export default defineUserConfig<DefaultThemeOptions>({
         {
           text: '开发',
           children: [
-            '/code/coding/java.md',
+            '/code/coding/deep-learning.md',
           ],
         },
       ],
     },
-    plugins: [
-      [
-        "@vuepress/plugin-search",
-        {
-          locales: {
-            "/": {
-              placeholder: "搜索",
-            },
+  },
+
+  plugins: [
+    [
+      '@vuepress/plugin-search',
+      {
+        locales: {
+          '/': {
+            placeholder: '搜索',
           },
         },
-      ],
+      },
     ],
-  },
+  ],
+
 })
