@@ -315,7 +315,6 @@ export PATH=$JAVA_HOME/bin:$PATH
     </pluginRepository>
 </pluginRepositories>
 ```
-```
 :::
 ::::
 
@@ -357,4 +356,3 @@ repositories {
     mavenCentral()
 }
 ```
-
