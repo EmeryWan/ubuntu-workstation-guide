@@ -1,23 +1,23 @@
-import { defineUserConfig } from 'vuepress'
-import type { DefaultThemeOptions } from 'vuepress'
+import { defineUserConfig, defaultTheme } from 'vuepress'
+import { searchPlugin } from '@vuepress/plugin-search'
 
-export default defineUserConfig<DefaultThemeOptions>({
-  base: '/',
-  // 站点配置
+export default defineUserConfig({
   lang: 'zh-CN',
+  base: '/',
   title: 'ubuntu 简明指南',
   description: '使用 ubuntu 作为日常 工作 🧑🏻‍💻 娱乐 🍿 的系统',
-  
+
+
   head: [
     ['link', { rel: 'icon', href: '/images/logo.svg'}],
   ],
 
-  // 主题和它的配置
-  theme: '@vuepress/theme-default',
-  themeConfig: {
+
+  theme: defaultTheme({
     logo: '/images/logo.svg',
     repo: 'emerywan/ubuntu-workstation-guide',
     docsDir: 'docs',
+    contributors: false,
     navbar: [
       {
         text: '开始使用 👏',
@@ -55,8 +55,8 @@ export default defineUserConfig<DefaultThemeOptions>({
           text: '安装详解',
           children: [
             '/guide/prepare/native.md',
+            '/guide/prepare/driver.md',
             '/guide/prepare/virtual.md',
-            '/guide/prepare/graphics.md',
           ],
         },
         {
@@ -94,6 +94,10 @@ export default defineUserConfig<DefaultThemeOptions>({
             '/code/install/node.md',
             '/code/install/python.md',
             '/code/install/docker.md',
+            '/code/install/mysql.md',
+            '/code/install/redis.md',
+            '/code/install/mongodb.md',
+            '/code/install/nginx.md',
           ],
         },
         {
@@ -106,27 +110,29 @@ export default defineUserConfig<DefaultThemeOptions>({
 
       '/tip': [
         {
-          text: '开发',
+          text: '推荐',
           children: [
             '/tip/github.md',
           ],
         },
+        {
+          text: '玩法',
+          children: [
+            '/tip/pan.md',
+          ],
+        },
       ],
     },
-
-  },
+  }),
 
   plugins: [
-    [
-      '@vuepress/plugin-search',
-      {
-        locales: {
-          '/': {
-            placeholder: '搜索',
-          },
-        },
-      },
-    ],
+    searchPlugin({
+      locales: {
+        '/': {
+          placeholder: '搜索',
+        }
+      }
+    }),
   ],
 
 })

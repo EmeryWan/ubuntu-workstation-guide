@@ -16,7 +16,7 @@ title: ☕️ Java
 
 ## JDK
 
-### 📚 选择发行版
+### 🤔 选择发行版
 
 |JDK| |备注|
 |:--:|:--:|:--:|
@@ -29,6 +29,69 @@ title: ☕️ Java
 |[IBM developer kits](https://developers.redhat.com/products/openjdk/overview)|IBM||
 |[Temurin](https://projects.eclipse.org/projects/adoptium.temurin)|Eclipse|Adopt OpenJDK|
 |[Zulu](https://www.azul.com/)|Azul Systems||
+
+
+
+### 🤔 选择版本号
+
+在 `Java 8` 之后，Java 的功能更新周期从之前的每两年一个新版本缩减到每六个月一个新版本，并分为 LTS（长期支持版本）和 非 LTS，非 LTS 版本只提供 6 个月的维护。推荐安装 LTS 版本，目前 `17; 11; 8` 为目前提供的支持的 LTS。[了解更多](https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2)
+
+
+![jdk-version](/images/docs/code/install/java/jdk-version.png)
+
+
+### 📥 直接安装 JDK
+
+如果你有明确使用的 JDK 版本，或者不想使用工具管理 JDK，可以选择直接安装。
+
+#### 🗝 openJDK
+
+如果要安装 `openjdk` 的话，可以直接使用 ubuntu 官方源进行安装。
+
+```sh
+# 查找官方源中的 JDK，主要包含 LTS 和部分支持版本
+sudo apt search openjdk | grep openjdk
+
+# 以安装 LTS 11 为例
+sudo apt install openjdk-11-jdk openjdk-11-source openjdk-11-doc
+```
+
+使用 `apt` 安装，文件目录在 `/usr/lib/jvm`。
+
+#### 🔑 其他版本的 JDK
+
+安装其他版本的 JDK，可以根据需要，选择 JDK 发行版。下载 `.zip`、 `.tar.gz`、 `.deb` 或其他格式的二进制文件，解压到指定目录或直接安装。
+
+以 zulu-LTS-17 为例，在 [此链接](https://www.azul.com/downloads/?version=java-17-lts&os=ubuntu&architecture=x86-64-bit&package=jdk#download-openjdk) 中选择需要的文件。
+
+- 🌰 假设选择下载 `.deb` 文件，根据以下命令进行安装：
+
+```sh
+cd ${DOWNLOAD_PATH}
+
+sudo apt install ./{DEB_FILE_NAME}.deb
+```
+
+`.deb` 格式的 JDK 文件通常会安装在 `/use/lib/jvm` 目录下。
+
+- 🌰 假设选择下载 `.tat.gz` 文件，可以根据以下命令安装：
+
+```sh
+cd ${DOWNLOAD_PATH}
+
+tar -xzvf ./{DEB_FILE_NAME}.tat.gz -C {YOUR_PATH_NAME}
+```
+
+:::warning 🚧 注意
+选择解压二进制文件的安装方式，如果有使用 `java` 命令行的需求，需要配置对应的环境变量。
+:::
+
+在 `.zshrc (zsh)` 或 `.bashrc (bash)` 等对应配置文件中加入 `PATH` 环境变量。
+
+```sh
+export JAVA_HOME={YOUR_PATH_NAME}
+export PATH=$JAVA_HOME/bin:$PATH
+```
 
 
 ### 🧰 使用工具管理 JDK
@@ -110,58 +173,7 @@ TODO
 TODO
 
 
-### 📥 直接安装 JDK
 
-如果你有明确使用的 JDK 版本，或者不想使用工具管理 JDK，可以选择直接安装。
-
-#### 🗝 openJDK
-
-如果要安装 `openjdk` 的话，可以直接使用 ubuntu 官方源进行安装。
-
-```sh
-# 查找官方源中的 JDK，主要包含 LTS 和部分支持版本
-sudo apt search openjdk | grep openjdk
-
-# 以安装 LTS 11 为例
-sudo apt install openjdk-11-jdk openjdk-11-source openjdk-11-doc
-```
-
-使用 `apt` 安装，文件目录在 `/usr/lib/jvm`。
-
-#### 🔑 其他版本的 JDK
-
-安装其他版本的 JDK，可以根据需要，选择 JDK 发行版。下载 `.zip`、 `.tar.gz`、 `.deb` 或其他格式的二进制文件，解压到指定目录或直接安装。
-
-以 zulu-LTS-17 为例，在 [此链接](https://www.azul.com/downloads/?version=java-17-lts&os=ubuntu&architecture=x86-64-bit&package=jdk#download-openjdk) 中选择需要的文件。
-
-- 🌰 假设选择下载 `.deb` 文件，根据以下命令进行安装：
-
-```sh
-cd ${DOWNLOAD_PATH}
-
-sudo apt install ./{DEB_FILE_NAME}.deb
-```
-
-`.deb` 格式的 JDK 文件通常会安装在 `/use/lib/jvm` 目录下。
-
-- 🌰 假设选择下载 `.tat.gz` 文件，可以根据以下命令安装：
-
-```sh
-cd ${DOWNLOAD_PATH}
-
-tar -xzvf ./{DEB_FILE_NAME}.tat.gz -C {YOUR_PATH_NAME}
-```
-
-:::warning 🚧 注意
-选择解压二进制文件的安装方式，如果有使用 `java` 命令行的需求，需要配置对应的环境变量。
-:::
-
-在 `.zshrc (zsh)` 或 `.bashrc (bash)` 等对应配置文件中加入 `PATH` 环境变量。
-
-```sh
-export JAVA_HOME={YOUR_PATH_NAME}
-export PATH=$JAVA_HOME/bin:$PATH
-```
 
 
 
@@ -221,7 +233,6 @@ export PATH=$JAVA_HOME/bin:$PATH
 ::: code-group-item 阿里云
 ```xml
 <!-- https://developer.aliyun.com/mvn/guide -->
-```xml
 <repositories>
     <repository>
         <id>nexus-163</id>
@@ -286,7 +297,6 @@ export PATH=$JAVA_HOME/bin:$PATH
 ::: code-group-item 163
 ```xml
 <!-- https://mirrors.163.com/.help/maven.html -->
-```xml
 <repositories>
     <repository>
         <id>nexus-163</id>
@@ -356,3 +366,7 @@ repositories {
     mavenCentral()
 }
 ```
+
+## 参考
+
+- 🔗 [https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2](https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2)

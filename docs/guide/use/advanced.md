@@ -1,7 +1,14 @@
 # 进阶使用
 
-休眠 swap
+## swap
+休眠
 
-rEFind 双系统
+## rEFind 
+双系统
 
-远程桌面
+## KDE Connect
+
+## 移动设备投屏
+
+## 远程桌面
+
