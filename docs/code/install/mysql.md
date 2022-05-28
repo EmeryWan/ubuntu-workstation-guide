@@ -200,8 +200,9 @@ docker pull mysql:8.0
 直接启动：
 
 ```sh
-docker run --name some-mysql \
+docker run --name docker-mysql \
     -e MYSQL_ROOT_PASSWORD=my-secret-pw \
+    -p 13306:3306 \
     -d mysql:tag
 ```
 

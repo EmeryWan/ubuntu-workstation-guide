@@ -14,33 +14,40 @@ actions:
     type: primary
 features:
   - title: 🌱 入门使用
-    details: TODO
+    details: 
   - title: 📚 介绍详细
-    details: TODO
+    details: 
   - title: 📊 图文丰富
-    details: TODO
+    details: 
   - title: 🛠 实用至上
-    details: TODO
+    details: 
   - title: 🏖 内容推荐
-    details: TODO
+    details: 
   - title: 🙌 参与贡献
-    details: TODO
+    details: 
 footerHtml: true
 footer: '<span>
     <p>Copyright © 2022</p>
     Powered by
     <a class="external-link" href="https://vuepress.vuejs.org/zh" rel="noopener noreferrer" target="_blank">
-      <svg class="icon" style="width: 1em;height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6272"><path d="M512 288.06l-110.98-192.22h-158.86L512 563.22 781.84 95.84h-158.86L512 288.06zM818.8 95.84L512 627.22 205.2 95.84H31.48L512 928.16 992.52 95.84H818.8z" p-id="6273"></path></svg>
       VuePress
-      <span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="10" height="10"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span>
     </a>
     &
-    <a>Emery Wan</a>
+    <a>Emery</a>
 </span>'
 ---
 
-## 📖 版权说明
-
 ## 🎈 特别声明
 
-## 🔔 隐私提醒
+📖 本作品的部分内容和写作风格，参考了 [@NakanoMikuOrg/arch-guide](https://github.com/NakanoMikuOrg/arch-guide)。
+
+✅ 如果你想要使用 Arch 作为常用的操作系统，可以参考 [archlinux 简明指南](https://arch.icekylin.online/)，作者写的非常详细。
+
+
+## 📖 版权说明
+
+📙 除特别声明外，本作品采用采用 **[CC BY-SA 4.0 协议](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)** 。
+
+📗 本作品会引用网络上一些内容，如果引用，请声该作品的原作者。
+
+

@@ -72,6 +72,7 @@ export default defineUserConfig({
             '/guide/use/basic.md',
             '/guide/use/advanced.md',
             '/guide/use/beauty.md',
+            '/guide/use/network.md',
           ],
         },
         {
@@ -98,6 +99,7 @@ export default defineUserConfig({
             '/code/install/redis.md',
             '/code/install/mongodb.md',
             '/code/install/nginx.md',
+            '/code/install/cuda.md',
           ],
         },
         {
