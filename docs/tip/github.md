@@ -24,20 +24,27 @@ title: github 国内加速
 
 ## 使用
 
-这里推荐使用 [`SwitchHosts`](https://github.com/oldj/SwitchHosts) 配置 `hosts`，操作很简单，支持跨平台。
+这里推荐使用 [`SwitchHosts`](https://github.com/oldj/SwitchHosts) 配置 `hosts`，操作简单，支持跨平台。
 
 ::: warning 🚧 注意
 请注意是要使用 **追加** 还是 **覆盖** 模式，以免本地 hosts 丢失。
 :::
 
+![type](/images/docs/tip/github/type.png)
+
 
 具体操作步骤，添加一条规则：
-- 方案名：GitHub（可以自行命名）
+
 - 类型：**远程**
+
+- 方案名：GitHub（可以自行命名）
+
 - URL 地址：（三选一）
   - https://raw.hellogithub.com/hosts
+
 - 自动更新：1个小时（推荐）
 
+![add](/images/docs/tip/github/add.png)
 
 ::: tip  提示
 SwitchHost 当前（V4.1.1）版本 Linux 图片不能正常显示，下一个版本会修复。

@@ -31,6 +31,11 @@ title: ☕️ Java
 |[Zulu](https://www.azul.com/)|Azul Systems||
 
 
+::: tip 推荐
+若只是为了日常学习使用，可直接通过 `apt` 安装 LTS 版本的 `openjdk`。
+:::
+
+
 
 ### 🤔 选择版本号
 

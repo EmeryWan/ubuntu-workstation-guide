@@ -16,7 +16,9 @@ title: 🐳 Docker
 
 ## 从软件源安装
 
-在 `ubuntu` 软件源中已经包含了 `Docker` 的相关软件包。这些软件包不是最近版本，但相对来说版本也比较靠前，完全够平常的使用和学习。如果有特殊要求，可以在[官网文档](https://docs.docker.com/engine/install/ubuntu/)了解更多。
+在 `ubuntu` 软件源中已经包含了 `Docker` 的相关软件包。这些软件包不是最新版本，但相对来说版本也比较靠前，完全够平常的使用和学习。
+
+如果有特殊要求，可以通过[官网文档](https://docs.docker.com/engine/install/ubuntu/)了解更多。
 
 ```sh
 sudo apt install docker docker.io docker-compose
@@ -191,6 +193,18 @@ docker container rm mynginx
 # 清理所有处于终止状态的容器
 docker rm $(docker ps -a -q)
 ```
+
+## 管理工具
+
+### Docker DesKtop
+
+[传送门](https://docs.docker.com/desktop/linux/install/ubuntu/)
+
+![docker-desktop](/images/docs/code/install/docker/docker-desktop.png)
+
+### VS Code
+
+在 Visual Studio Code 中安装 Docker 扩展。
 
 ## 学习更多
 

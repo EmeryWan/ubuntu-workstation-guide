@@ -21,9 +21,13 @@ title: 开发
 
 ## Jetbrains
 
+官网：[传送门➡️]()
+
+下载地址：[传送门➡️]()
+
 ## 编辑器
 
-### vsCode
+### vs code
 
 ### atom
 

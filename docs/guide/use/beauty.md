@@ -14,7 +14,9 @@ title: 美化
                 ||     ||
 ```
 
-
+::: tip 提示
+这里为 Gnome 下的美化。KDE 可参考：[传送门➡️](https://arch.icekylin.online/advanced/beauty-1.html)
+:::
 
 
 主题

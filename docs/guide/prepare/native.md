@@ -17,10 +17,36 @@ title: 安装教程
 
 ## 💾 从 U 盘启动
 
-列出一些品牌进入方式
+通常我们可以通过以下两种方式之一从 U 盘启动系统：
 
-- BIOS 设置进入
-- 更改启动方式进入
+- 在 UEFI（BIOS）设置 Boot Device 进入
+
+- 更改启动设备（部分厂商的设备可在 UEFI（BIOS）外直接更改启动设备）
+
+可以利用搜索引擎，通过关键字 `品牌  进入  BIOS / U 盘启动` 查到到需要的内容。
+
+以下为部分厂商电脑进入 UEFI（BIOS）的方式：
+
+- 戴尔 [传送门](https://www.dell.com/support/kbdoc/zh-cn/000126121/%E4%BB%8E%E6%88%B4%E5%B0%94%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%9A%84windows%E8%AE%BF%E9%97%AEuefi-bios-%E7%B3%BB%E7%BB%9F%E8%AE%BE%E7%BD%AE?lang=zh)
+
+- 惠普 [传送门](https://support.hp.com/cn-zh/document/c04926958)
+
+- 联想 [传送门](https://iknow.lenovo.com.cn/detail/dc_R0170.html)
+
+- Thinkpad [传送门](https://datacentersupport.lenovo.com/cn/zc/solutions/ht500222)
+
+- 宏碁 [传送门](https://community.acer.com/en/kb/articles/86-how-to-enter-the-bios-setup)
+
+- 华为 [传送门](https://consumer.huawei.com/cn/support/content/zh-cn00688478/)
+
+- 小米 [传送门](https://www.mi.com/service/bijiben/drivers)
+
+- 神州 [传送门](http://www.kqidong.com/bios/1860.html)
+
+- 机械革命 [传送门](http://www.ujiaoshou.com/upanjc/diannao/27930.html  )
+
+- 雷蛇 [传送门](https://mysupport.razer.com/app/answers/detail/a_id/1541/~/how-to-access-the-bios-settings-on-the-razer-blade)
+
 
 ## 🚄 安装流程
 

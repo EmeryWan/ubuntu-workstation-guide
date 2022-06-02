@@ -1,5 +1,5 @@
 ---
-title: ubuntu 常用内容
+title: Ubuntu 常用内容
 ---
 
 
@@ -31,7 +31,12 @@ title: ubuntu 常用内容
 sudo dpkg -i package.deb
 ```
 
-若使用 `dpkg` 安装后，系统中不包含某些依赖，可使用 `sudo apt install -f` 安装依赖。
+若使用 `dpkg` 安装后，系统中不包含某些依赖，可使用 `sudo apt install -f` 安装缺失依赖。
+
+例如以下情形：
+
+
+![dpkg-error](/images/docs/guide/base/dpkg-error.png)
 
 ### apt
 
@@ -57,7 +62,7 @@ sudo apt upgrade
 
 ### 快速打开终端
 
-`ctrl + alt + t`
+使用快捷键：`ctrl + alt + t`
 
 ## 其他
 

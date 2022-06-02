@@ -37,12 +37,24 @@ footer: '<span>
 </span>'
 ---
 
+```:no-line-numbers
+ _________________________________________________
+< 使用 ubuntu 作为日常 工作 🧑🏻‍💻 娱乐 🍿 的系统 >
+ -------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
+
 ## 🎈 特别声明
 
-📖 本作品的部分内容和写作风格，参考了 [@NakanoMikuOrg/arch-guide](https://github.com/NakanoMikuOrg/arch-guide)。
+🖊 部分内容和写作风格，参考了 [@NakanoMikuOrg/arch-guide](https://github.com/NakanoMikuOrg/arch-guide)。如果你想要使用 Arch 作为常用的操作系统，可以参考 [archlinux 简明指南](https://arch.icekylin.online/)，作者写的非常详细。
 
-✅ 如果你想要使用 Arch 作为常用的操作系统，可以参考 [archlinux 简明指南](https://arch.icekylin.online/)，作者写的非常详细。
+🖌 本作品旨在如何安装和配置 Ubuntu 系统，并应用在**日常使用**，提供一些使用帮助，或配置建议，并不适合于严格的生产环境。
 
+🖍 其中部分内容，可能会存在错误，希望大家谅解，欢迎大家指正。
 
 ## 📖 版权说明
 
@@ -50,4 +62,4 @@ footer: '<span>
 
 📗 本作品会引用网络上一些内容，如果引用，请声该作品的原作者。
 
-
+📘 所有 Ubuntu 相关的图标，名词，商标等，归属于 [canonical](https://canonical.com/) 公司所有。
