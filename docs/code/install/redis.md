@@ -81,7 +81,7 @@ docker run --name docker-redis \
     -d redis
 ```
 
-更多参数请参考 [dockerhub MySQL 地址 🔗](https://hub.docker.com/_/redis)。
+更多参数请参考 [dockerhub Redis 🔗](https://hub.docker.com/_/redis)。
 
 - 使用容器命令行
 

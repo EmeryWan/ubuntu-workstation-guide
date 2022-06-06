@@ -62,4 +62,4 @@ footer: '<span>
 
 📗 本作品会引用网络上一些内容，如果引用，请声该作品的原作者。
 
-📘 所有 Ubuntu 相关的图标，名词，商标等，归属于 [canonical](https://canonical.com/) 公司所有。
+📘 所有与 Ubuntu 相关的图标，名词等，归属于 [canonical](https://canonical.com/) 公司所有。

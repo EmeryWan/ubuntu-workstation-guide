@@ -13,13 +13,15 @@
                 ||     ||
 ```
 
+- [阅读地址](https://ubuntu.letout.cn)
+
 ## 内容
 
-- 快速开始 👏
+- [快速开始 👏](https://ubuntu.letout.cn/guide)
 
-- 开发相关 💻
+- [开发相关 💻](https://ubuntu.letout.cn/code)
 
-- 推荐内容 🪁
+- [推荐内容 🪁](https://ubuntu.letout.cn/tip)
 
 
 ## 说明

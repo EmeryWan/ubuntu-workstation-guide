@@ -79,9 +79,17 @@ sudo chsh -s $(which zsh)
 
 如果需要添加字体（如 windows 下的字体），可以将字体复制到 `~/.local/share/fonts` 目录下。再使用以下命令刷新字体缓存：
 
+
 ```sh
 sudo fc-cache -f -v
 ```
+
+有些网页没有考虑 Ubuntu 下字体显示，显示效果不佳，推荐添加以下字体：
+
+- [PingFang SC](http://xiazaiziti.com/55657.html)
+- microsoft yahei ui
+- [microsoft yahei](http://xiazaiziti.com/1107.html)
+
 
 Ubuntu 在某些软件内，可能 emoji 显示不正常，可以通过安装 emoji 字体解决：
 

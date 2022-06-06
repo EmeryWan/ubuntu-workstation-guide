@@ -196,7 +196,7 @@ docker rm $(docker ps -a -q)
 
 ## 管理工具
 
-### Docker DesKtop
+### Docker Desktop
 
 [传送门](https://docs.docker.com/desktop/linux/install/ubuntu/)
 
