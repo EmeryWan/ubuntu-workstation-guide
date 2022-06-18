@@ -60,6 +60,6 @@ footer: '<span>
 
 📙 除特别声明外，本作品采用采用 **[CC BY-SA 4.0 协议](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)** 。
 
-📗 本作品会引用网络上一些内容，如果引用，请声该作品的原作者。
+📗 本作品会引用网络上一些内容，如果引用，请声该作品的原作者。如有侵权，请联系删除。
 
 📘 所有与 Ubuntu 相关的图标，名词等，归属于 [canonical](https://canonical.com/) 公司所有。

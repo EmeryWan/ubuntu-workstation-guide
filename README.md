@@ -13,15 +13,15 @@
                 ||     ||
 ```
 
-- [阅读地址](https://ubuntu.letout.cn)
+- [阅读地址 📑](https://ubuntu.letout.cn){:target="_blank"}
 
 ## 内容
 
-- [快速开始 👏](https://ubuntu.letout.cn/guide)
+- [快速开始 👏](https://ubuntu.letout.cn/guide){:target="_blank"}
 
-- [开发相关 💻](https://ubuntu.letout.cn/code)
+- [开发相关 💻](https://ubuntu.letout.cn/code){:target="_blank"}
 
-- [推荐内容 🪁](https://ubuntu.letout.cn/tip)
+- [推荐内容 🪁](https://ubuntu.letout.cn/tip){:target="_blank"}
 
 
 ## 说明
@@ -40,7 +40,7 @@
 
 ## 🎈 特别声明
 
-🖊 部分内容和写作风格，参考了 [@NakanoMikuOrg/arch-guide](https://github.com/NakanoMikuOrg/arch-guide)。如果你想要使用 Arch 作为常用的操作系统，可以参考 [archlinux 简明指南](https://arch.icekylin.online/)，作者写的非常详细。
+🖊 部分内容和写作风格，参考了 [@NakanoMikuOrg/arch-guide](https://github.com/NakanoMikuOrg/arch-guide){:target="_blank"}。如果你想要使用 Arch 作为常用的操作系统，可以参考 [archlinux 简明指南](https://arch.icekylin.online/){:target="_blank"}，作者写的非常详细。
 
 🖌 本作品旨在如何安装和配置 Ubuntu 系统，并应用在**日常使用**，提供一些使用帮助，或配置建议，并不适合于严格的生产环境。
 
@@ -48,9 +48,9 @@
 
 ## 📖 版权说明
 
-📙 除特别声明外，本作品采用采用 **[CC BY-SA 4.0 协议](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)** 。
+📙 除特别声明外，本作品采用采用 **[CC BY-SA 4.0 协议](https://creativecommons.org/licenses/by-sa/4.0/deed.zh){:target="_blank"}** 。
 
-📗 本作品会引用网络上一些内容，如果引用，请声该作品的原作者。
+📗 本作品会引用网络上一些内容，如果引用，请声该作品的原作者。如有侵权，请联系删除。
 
-📘 所有 Ubuntu 相关的图标，名词，商标等，归属于 [canonical](https://canonical.com/) 公司所有。
+📘 所有 Ubuntu 相关的图标，名词，商标等，归属于 [canonical](https://canonical.com/){:target="_blank"} 公司所有。
 

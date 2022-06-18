@@ -138,9 +138,9 @@ update user set host='%' where user='root';
 
 ```sh
 # 创建新用户
-create user 'username'@'%' identified by 'password';
+create user 'your_name'@'%' identified by 'your_password';
 # 更改权限
-grant all privileges on *.* to 'username'@'%' with grant option;
+grant all privileges on *.* to 'your_name'@'%' with grant option;
 flush privileges;
 ```
 

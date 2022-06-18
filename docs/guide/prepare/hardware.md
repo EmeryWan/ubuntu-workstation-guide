@@ -42,13 +42,15 @@ title: 硬件选择
 
 笔记本厂商通常都会对硬件和 BIOS 进行定制，大部分不会在 Linux 下进行测试或优化，容易出现无法休眠，声卡无法自动切换等情况。
 
-遇到这种情况，可以善用搜索引擎寻求帮助。例如，若您使用的设备为 Surface 系列，可以找到如下的支持：
+遇到这种情况，可以善用搜索引擎寻求帮助。
 
-[@linux-surface/linux-surface](https://github.com/linux-surface/linux-surface)
+例如，若您使用的设备为 Surface 系列，可以找到如下的支持：[@linux-surface/linux-surface](https://github.com/linux-surface/linux-surface)
 
 ![surface](/images/docs/guide/prepare/hardware/surface.png)
 
-🍓 如果当前没有购买电脑，或想要有完美的 `Ubuntu` 使用体验，可以购买 `Ubuntu` 认证的硬件。可以在此处（[传送门](https://ubuntu.com/certified)）查找到认证的硬件，包含了[笔记本](https://ubuntu.com/certified/laptops)，[台式机](https://ubuntu.com/certified/desktops)，[服务器](https://ubuntu.com/certified/servers)，[嵌入式设备](https://ubuntu.com/certified/devices)，[Soc](https://ubuntu.com/certified/socs)。
+🍓 如果想要有完美的 `Ubuntu` 使用体验，可以选择 `Ubuntu` 认证的硬件。
+
+可以在此处（[传送门](https://ubuntu.com/certified)）查找到认证的硬件，包含了[笔记本](https://ubuntu.com/certified/laptops)，[台式机](https://ubuntu.com/certified/desktops)，[服务器](https://ubuntu.com/certified/servers)，[嵌入式设备](https://ubuntu.com/certified/devices)，[Soc](https://ubuntu.com/certified/socs)。
 
 
 ![certified](/images/docs/guide/prepare/hardware/certified.png)

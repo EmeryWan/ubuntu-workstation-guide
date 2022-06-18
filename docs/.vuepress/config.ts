@@ -64,6 +64,7 @@ export default defineUserConfig({
           children: [
             '/guide/base/linux.md',
             '/guide/base/ubuntu.md',
+            '/guide/base/directory.md',
           ],
         },
         {
@@ -94,6 +95,7 @@ export default defineUserConfig({
             '/code/install/java.md',
             '/code/install/node.md',
             '/code/install/python.md',
+            '/code/install/go.md',
             '/code/install/docker.md',
             '/code/install/mysql.md',
             '/code/install/redis.md',

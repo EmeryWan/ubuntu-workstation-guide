@@ -14,7 +14,7 @@ title: 🐳 Docker
 ```
 
 
-## 从软件源安装
+## 从 apt 安装
 
 在 `ubuntu` 软件源中已经包含了 `Docker` 的相关软件包。这些软件包不是最新版本，但相对来说版本也比较靠前，完全够平常的使用和学习。
 
@@ -27,10 +27,14 @@ sudo apt install docker docker.io docker-compose
 如果不想添加 `sudo` 使用相关命令，可以将当前用户加入 `docker` 用户组。
 
 ```sh
+# 创建 docker 用户组
 sudo groupadd docker
 
-sudo gpasswd -a ${USER} docker
+# 将当前用户加入 docker 用户组
 sudo usermod -aG docker ${USER}
+
+# 注销重新登录，或使用以下命令激活改变的用户组
+newgrp docker
 ```
 
 
@@ -200,6 +204,8 @@ docker rm $(docker ps -a -q)
 
 [传送门](https://docs.docker.com/desktop/linux/install/ubuntu/)
 
+如果想使用 Docker Desktop，请按照 Docker 官方源安装方式。
+
 ![docker-desktop](/images/docs/code/install/docker/docker-desktop.png)
 
 ### VS Code
@@ -213,4 +219,5 @@ docker rm $(docker ps -a -q)
 
 ## 参考
 
-- 🔗 https://yeasy.gitbook.io/docker_practice
+- 🔗 [https://yeasy.gitbook.io/docker_practice](https://yeasy.gitbook.io/docker_practice)
+- 🔗 [https://docs.docker.com/engine/install/linux-postinstall/](https://docs.docker.com/engine/install/linux-postinstall/)

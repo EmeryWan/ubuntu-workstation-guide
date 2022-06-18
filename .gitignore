@@ -11,7 +11,7 @@ lib/
 # Test temp files
 **/__fixtures__/.temp/
 
-# Test coverage files
+# Test coverage files=
 coverage/
 
 # dependencies

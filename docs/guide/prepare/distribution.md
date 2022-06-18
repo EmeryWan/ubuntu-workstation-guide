@@ -14,7 +14,7 @@ title: ubuntu 桌面发行版
                 ||     ||
 ```
 
-## 🍢 选择你喜欢的桌面环境
+## 🍢 Ubuntu 风味版
 
 [Ubuntu](https://ubuntu.com/) 是基于 Debian 的 Linux 发行版，Ubuntu 桌面系统依据默认使用的桌面有很多分支。
 
@@ -37,21 +37,51 @@ Ubuntu 官方使用的 Gnome 桌面。
 
 ### Kubuntu
 
-[Kubuntu](https://kubuntu.org/) 采用 KDE Plasma 桌面为其默认桌面环境。
+[Kubuntu](https://kubuntu.org/) 采用 KDE Plasma 桌面为其默认桌面环境。Kubuntu 使用 Qt 工具包构建，快速、流畅且美观。 Kubuntu 支持移动设备，可通过 KDE Con​​nect 在 PC 桌面轻松集成手机或平板电脑。
 
 ![Kubuntu](/images/docs/prepare/distribution/Kubuntu.png)
 
 ### Xubuntu
 
-[Xubuntu](https://xubuntu.org/) 主要面向旧式电脑的使用者和追求更快捷的桌面环境的使用者，主要运行基于GTK+的程序。
+[Xubuntu](https://xubuntu.org/) ，Xface 这是一个稳定、轻量且可配置的桌面环境，主要面向旧式电脑的使用者和追求更快捷的桌面环境的使用者，主要运行基于GTK+的程序。
 
 ![Xubuntu](/images/docs/prepare/distribution/Xubuntu.png)
+
+### Ubuntu Kylin 优麒麟
+
+优麒麟（Ubuntu Kylin）是由麒麟软件有限公司和 CCN 开源软件创新联合实验室主导开发的全球开源项目，其宗旨是通过研发用户友好的桌面环境以及特定需求的应用软件。
+
+[优麒麟](https://www.ubuntukylin.com/index-cn.html)
+
+![ubuntukylin](/images/docs/prepare/distribution/ubuntukylin.png)
+
+### Lubuntu
+
+[Lubuntu](https://lubuntu.me/) 被设计成一个简单、易于使用的系统，轻巧、快速和现代。 Lubuntu 提供了专注于 Qt 技术的 LXQt 桌面环境。可以给老旧设备一个流畅的体验。
+
+![Lubuntu](/images/docs/prepare/distribution/Lubuntu.webp)
+
+### Ubuntu Budgie
+
+[Ubuntu Budgie](https://ubuntubudgie.org)
+
+![Budgie](/images/docs/prepare/distribution/Budgie.webp)
+
+### Ubuntu Studio
+
+[Ubuntu Studio](https://ubuntustudio.org/) 已针对各种内容创建进行了预配置。无论您是音频工程师、音乐家、平面设计师、摄影师、视频制作人还是流媒体，这都是一个满足您需求的成熟桌面计算系统。
+
+![UbuntuStudio](/images/docs/prepare/distribution/UbuntuStudio.webp)
+
 
 ### Ubuntu Mate
 
 [Ubuntu MATE](https://ubuntu-mate.org/) 基于桌面环境 MATE。其所使用的 MATE 桌面环境由已经停止官方维护的 GNOME 2 源代码派生而来。E针对老旧桌面型、笔记型、树莓派电脑等硬件性能等级不高的设备，或喜欢简洁、不用特效桌面环境者。
 
-![Ubuntu_MATE](/images/docs/prepare/distribution/Ubuntu_MATE.png)
+![Ubuntu MATE](/images/docs/prepare/distribution/Ubuntu_MATE.png)
+
+
+
 
 
 ## 🍡 ubuntu 衍生发行版
@@ -78,10 +108,3 @@ Ubuntu 官方使用的 Gnome 桌面。
 国内使用 Pop!_os 源，可能需要一个“良好”的网络环境。
 :::
 
-### 优麒麟
-
-优麒麟（Ubuntu Kylin）是由麒麟软件有限公司和 CCN 开源软件创新联合实验室主导开发的全球开源项目，其宗旨是通过研发用户友好的桌面环境以及特定需求的应用软件。
-
-[优麒麟](https://www.ubuntukylin.com/index-cn.html)
-
-![ubuntukylin](/images/docs/prepare/distribution/ubuntukylin.png)
