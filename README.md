@@ -1,5 +1,3 @@
-整理中。。。
-
 # Ubuntu 简明指南
 
 ```:no-line-numbers
@@ -13,15 +11,15 @@
                 ||     ||
 ```
 
-- [阅读地址 📑](https://ubuntu.letout.cn){:target="_blank"}
+- <a href="https://ubuntu.letout.cn" rel="nofollow" target="_blank" rel="noopener noreferrer">阅读地址 📑</a>
 
 ## 内容
 
-- [快速开始 👏](https://ubuntu.letout.cn/guide){:target="_blank"}
+- <a href="https://ubuntu.letout.cn/guide" rel="nofollow" target="_blank" rel="noopener noreferrer">快速开始 👏</a>
 
-- [开发相关 💻](https://ubuntu.letout.cn/code){:target="_blank"}
+- <a href="https://ubuntu.letout.cn/code" rel="nofollow" target="_blank" rel="noopener noreferrer">开发相关 💻</a>
 
-- [推荐内容 🪁](https://ubuntu.letout.cn/tip){:target="_blank"}
+- <a href="https://ubuntu.letout.cn/tip" rel="nofollow" target="_blank" rel="noopener noreferrer">推荐内容 🪁</a>
 
 
 ## 说明
@@ -50,7 +48,6 @@
 
 📙 除特别声明外，本作品采用采用 **[CC BY-SA 4.0 协议](https://creativecommons.org/licenses/by-sa/4.0/deed.zh){:target="_blank"}** 。
 
-📗 本作品会引用网络上一些内容，如果引用，请声该作品的原作者。如有侵权，请联系删除。
+📗 本作品会引用网络上一些内容，已声该作品的原作者。如有侵权，请联系删除。
 
 📘 所有 Ubuntu 相关的图标，名词，商标等，归属于 [Canonical](https://canonical.com/){:target="_blank"} 公司所有。
-
