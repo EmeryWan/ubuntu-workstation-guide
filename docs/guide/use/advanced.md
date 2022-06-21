@@ -21,12 +21,10 @@ title: 进阶使用
 
 休眠
 
-## rEFind 
+## 插件
 
-双系统
 
 ## KDE Connect
 
 
 
-## 插件

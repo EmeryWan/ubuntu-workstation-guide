@@ -133,7 +133,7 @@ tar -xzvf Clash.for.Windows-0.19.12 -C ~/Application/clash
 - 创建启动文件的软连接
 
 ```sh
-ls -s ./Clash\ for\ Windows-0.19.12-x64-linux ./clash
+ln -s ./Clash\ for\ Windows-0.19.12-x64-linux/cfw ./clash
 ```
 
 通过这种方式，每次启动应用都使用这个软链接进行操作，当需要升级应用时，只需要创建新的软链接，指向新的启动文件。最后的效果如下：

@@ -40,11 +40,11 @@
 
 ## 🎈 特别声明
 
-🖊 部分内容和写作风格，参考了 [@NakanoMikuOrg/arch-guide](https://github.com/NakanoMikuOrg/arch-guide){:target="_blank"}。如果你想要使用 Arch 作为常用的操作系统，可以参考 [archlinux 简明指南](https://arch.icekylin.online/){:target="_blank"}，作者写的非常详细。
-
 🖌 本作品旨在如何安装和配置 Ubuntu 系统，并应用在**日常使用**，提供一些使用帮助，或配置建议，并不适合于严格的生产环境。
 
 🖍 其中部分内容，可能会存在错误，希望大家谅解，欢迎大家指正。
+
+🖊 部分内容和写作风格，参考了 [@NakanoMikuOrg/arch-guide](https://github.com/NakanoMikuOrg/arch-guide){:target="_blank"}。如果你想要使用 Arch 作为常用的操作系统，可以参考 [archlinux 简明指南](https://arch.icekylin.online/){:target="_blank"}，作者写的非常详细。
 
 ## 📖 版权说明
 
@@ -52,5 +52,5 @@
 
 📗 本作品会引用网络上一些内容，如果引用，请声该作品的原作者。如有侵权，请联系删除。
 
-📘 所有 Ubuntu 相关的图标，名词，商标等，归属于 [canonical](https://canonical.com/){:target="_blank"} 公司所有。
+📘 所有 Ubuntu 相关的图标，名词，商标等，归属于 [Canonical](https://canonical.com/){:target="_blank"} 公司所有。
 

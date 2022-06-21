@@ -16,15 +16,13 @@ title: 通讯
 ```
 
 ::: tip  提示
-Ubuntu 安装第三方软件并没有 Arch 那样方便，只能去网络上搜索下载，或逐个添加 apt 源。
+Ubuntu 安装第三方软件并没有 Arch 那样方便，如果 apt 中没有的话，只能去网络上搜索下载，或逐个添加 ppa。好在 Linux 下的这些软件不怎么会更新，只有第一次安装的时候麻烦点。
 
-好在 Linux 下的这些软件不怎么会更新，只有第一次安装的时候麻烦点。
+你可以在这里找到一些常用软件的 PPA：[传送门](https://www.ubuntuupdates.org/ppas)
 
 ---
 
-当前（写这篇文档的时候），Ubuntu 22.04 刚刚发布，可能部分软件有兼容性问题，请尽量使用最新版本。
-
-请善用搜索引擎，利用关键字 `ubuntu 22.04 软件名` 寻找相应的方法。
+当前（写这篇文档的时候），Ubuntu 22.04 刚刚发布，可能部分软件有兼容性问题（如网易云音乐），请尽量下载最新版本确保兼容。善用搜索引擎，利用关键字 `ubuntu 22.04 软件名` 寻找相应的方法。
 :::
 
 
@@ -37,44 +35,55 @@ Ubuntu 安装第三方软件并没有 Arch 那样方便，只能去网络上搜�
 
 ## QQ
 
-官网：[传送门➡️](https://im.qq.com/index)
+Linux 下虽然提供了 QQ 客户端，但是是个上古版本，只能进行简单的通讯，应个急还是可以的。因为版本老旧，加上了能直接查看撤回消息 Buff。
 
 下载地址：[传送门➡️](https://im.qq.com/linuxqq/index.html)
 
-虚拟机
-linux-qq
-wine-qq
-deppin-qq
+如果想要更好的体验可以选择以下方式安装 windows 下的 QQ，有风险的尽量少折腾：
 
+- [优麒麟 wine-qq](https://www.ubuntukylin.com/applications/107-cn.html)
+
+- [deepin-wine](https://github.com/zq1997/deepin-wine)
+
+- [docker-deepin](https://github.com/ygcaicn/docker-deepin)
+
+
+- 虚拟机
+  - 我个人是直接在虚拟机里用，感觉使用 wine 的方式装太多依赖了，在学校经常要处理有格式要求的 word，还是直接用了虚拟机。
 
 ## 微信
 
-虚拟机
-linux-wechat
-wine-wechat
+微信其实有基于 Electron 的 Linux 版本，但只在部分国产系统的应用商店提供，且会限制其他系统登录。
 
-## 腾讯会议
+在优麒麟的官网下载到，但是我登录过几次自后就再也登不上了，不知道是不是个别原因。
 
-linux
+- [优麒麟 微信](https://www.ubuntukylin.com/applications/106-cn.html)
 
-## 国外通讯
+- [优麒麟 wine-wechat](https://www.ubuntukylin.com/applications/119-cn.html)
 
-- telegram
-- skype
-- discoard
+- [deepin-wine](https://github.com/zq1997/deepin-wine)
+
+- [docker-deepin](https://github.com/ygcaicn/docker-deepin)
+
+- 虚拟机
+
+
+
+## 线上会议
+
+- 腾讯会议
+
+下载地址：[传送门➡️](https://meeting.tencent.com/download-center.html)
+
+- 飞书
+
+下载地址：[传送门➡️](https://www.feishu.cn/download)
+
 - zoom
 
-## 电子邮件
-
-- Thunderbird
-- KMail
-- Mailspring
+下载地址：[传送门➡️](https://zoom.us/download?os=linux)
 
 
-## 向日葵
+## 其他
 
-官网：[传送门➡️](https://sunlogin.oray.com/)
-
-下载地址：[传送门➡️](https://im.qq.com/linuxqq/index.html)
-
-## drawio
+大部分国外通讯软件会提供 Linux 版本，通过搜索引擎关键字 `ubuntu 关键字` 都找到安装方式。

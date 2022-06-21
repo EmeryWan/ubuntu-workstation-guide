@@ -15,15 +15,13 @@ title: 影音娱乐
 
 
 ::: tip  提示
-Ubuntu 安装第三方软件并没有 Arch 那样方便，只能去网络上搜索下载，或逐个添加 apt 源。
+Ubuntu 安装第三方软件并没有 Arch 那样方便，如果 apt 中没有的话，只能去网络上搜索下载，或逐个添加 ppa。好在 Linux 下的这些软件不怎么会更新，只有第一次安装的时候麻烦点。
 
-好在 Linux 下的这些软件不怎么会更新，只有第一次安装的时候麻烦点。
+你可以在这里找到一些常用软件的 PPA：[传送门](https://www.ubuntuupdates.org/ppas)
 
 ---
 
-当前（写这篇文档的时候），Ubuntu 22.04 刚刚发布，可能部分软件有兼容性问题，请尽量使用最新版本。
-
-请善用搜索引擎，利用关键字 `ubuntu 22.04 软件名` 寻找相应的方法。
+当前（写这篇文档的时候），Ubuntu 22.04 刚刚发布，可能部分软件有兼容性问题（如网易云音乐），请尽量下载最新版本确保兼容。善用搜索引擎，利用关键字 `ubuntu 22.04 软件名` 寻找相应的方法。
 :::
 
 
@@ -35,7 +33,7 @@ Ubuntu 安装第三方软件并没有 Arch 那样方便，只能去网络上搜�
 
 ## 音乐
 
-### 网易云音乐
+- 网易云音乐
 
 在 22.04 中（貌似）有问题，可以 [参考](https://juejin.cn/post/7098513792115408910)。
 
@@ -47,7 +45,7 @@ Ubuntu 安装第三方软件并没有 Arch 那样方便，只能去网络上搜�
 
 
 
-### QQ 音乐
+- QQ 音乐
 
 官网：[传送门➡️](https://y.qq.com/)
 
@@ -57,7 +55,7 @@ Ubuntu 安装第三方软件并没有 Arch 那样方便，只能去网络上搜�
 
 
 
-### yesplaymusic
+- yesplaymusic
 
 高颜值的第三方网易云播放器
 
@@ -69,7 +67,7 @@ Github：[传送门➡️](https://github.com/qier222/YesPlayMusic)
 
 
 
-### Listen 1 
+- Listen 1 
 
 Listen 1 可以搜索和播放来自多个主流音乐网站的歌曲，让你的曲库更全面。
 
@@ -81,7 +79,7 @@ Github：[传送门➡️](https://github.com/listen1/listen1_desktop)
 
 
 
-### Spotify
+- Spotify
 
 官网：[传送门➡️](https://www.spotify.com/)
 
@@ -99,7 +97,7 @@ sudo apt update && sudo apt-get install spotify-client
 ```
 
 
-### Apple Music
+- Apple Music
 
 Ubuntu 下可以使用第三方的基于 Electron 开发的 App。或者使用网页端。
 
@@ -110,19 +108,19 @@ Apple-Music-Electron：[传送门➡️](https://github.com/ciderapp/Apple-Music
 
 ## 视频
 
-### VLC
+- VLC
 
 ```
 sudo apt install vlc
 ```
 
-### mpv
+- mpv
 
 ```
 sudo apt install mpv
 ```
 
-### ZY Player
+- ZY Player
 
 跨平台桌面端视频资源播放器。
 
@@ -132,7 +130,7 @@ sudo apt install mpv
 
 ## 游戏
 
-### steam
+- steam
 
 ```sh
 sudo apt install steam
