@@ -19,9 +19,18 @@ title: 美化
 :::
 
 
-主题
+```sh
+# gnome-tweaks theme
+sudo apt install -y gnome-tweaks
+```
 
-图标
+## 主题
 
+## 图标
 
-QT
+## QT 应用
+
+```sh
+# qt application theme
+sudo apt install -y qt5ct qt5-style-kvantum
+```

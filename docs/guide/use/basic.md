@@ -22,6 +22,40 @@ title: 基础配置使用
 :::
 
 
+## 双系统时区问题
+
+```sh
+timedatectl set-local-rtc 1 --adjust-system-clock
+```
+
+## 一些常用软件
+
+下面是一些是使用时经常需要的软件或依赖，推荐安装一下。
+
+```sh
+# vim
+sudo apt install -y vim ctags vim-doc vim-scripts
+
+# curl wegt apt-transport-https 下载
+sudo apt install -y curl wget apt-transport-https
+
+# git
+sudo apt install -y git
+
+# cowsay neofetch
+sudo apt install -y cowsay neofetch
+
+# exfat 格式磁盘
+sudo apt install -y exfat-utils
+
+# rar zip 解压
+sudo apt install -y rar unrar zip unzip
+
+# openssh
+sudo apt install -y openssh-server openssh-client
+```
+
+
 ## 输入法
 
 Ubuntu 安装中文时，会自带 `ibus` 输入法，若选择该输入法，推荐勾选内置词库 `设置 - 区域与语言 - 设置` 。
@@ -43,35 +77,14 @@ Ubuntu 安装中文时，会自带 `ibus` 输入法，若选择该输入法，�
 
 ## 触摸板
 
-如果使用的是笔记本，通常都会带有触控板。大部分触控板适配通常都不好，容易出现打字误触。推荐安装该插件：
+如果使用的是笔记本，通常都会带有触控板。通常大部分触控板适配都不好，容易出现打字误触。推荐安装该插件：
 
 [传送门➡️](https://extensions.gnome.org/extension/131/touchpad-indicator/)
 
 [Github➡️](https://github.com/askmrsinh/touchpad-indicator#touchpadindicator)
 
-可以给部分适配不好的触控板添加多点触控，或手动禁用触控板。
+可以给部分适配不好的触控板添加多点触控，或手动禁用触控板的功能。
 
-## zsh
-
-配置好一个终端，可已让我们在使用的过程中更加方便。我通常会使用 [oh-my-zsh](https://ohmyz.sh/)。
-
-当然有很多选择如：[fishshell](https://fishshell.com/)，[powerlevel10k](https://github.com/romkatv/powerlevel10k)，可以选择自己喜欢的进行配置。这里主要介绍 `oh-my-zsh` 的安装。
-
-```sh
-# 安装 zsh
-sudo apt install zsh
-
-# oh-my-zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-# 或
-sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
-
-# 更改默认终端为 zsh
-sudo chsh -s $(which zsh)
-```
-
-
-安装完成后，可以通过 `~/.zshrc` 配置主题，插件，环境变量等内容。
 
 
 
@@ -91,7 +104,7 @@ sudo fc-cache -f -v
 - [microsoft yahei](http://xiazaiziti.com/1107.html)
 
 
-Ubuntu 在某些软件内，可能 emoji 显示不正常，可以通过安装 emoji 字体解决：
+在某些软件内，可能会有 emoji 显示不正常的问题，可以通过安装 emoji 字体解决：
 
 ```sh
 sudo apt install fonts-noto-color-emoji

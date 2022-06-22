@@ -210,7 +210,11 @@ docker rm $(docker ps -a -q)
 
 ### VS Code
 
-在 Visual Studio Code 中安装 Docker 扩展。
+在 Visual Studio Code 中安装 Docker 扩展。（需要当前用户能够使用 docker 命令）
+
+### Gnome 扩展
+
+[Gnoem 扩展](https://extensions.gnome.org/extension/5103/docker/)
 
 ## 学习更多
 
@@ -221,3 +225,4 @@ docker rm $(docker ps -a -q)
 
 - 🔗 [https://yeasy.gitbook.io/docker_practice](https://yeasy.gitbook.io/docker_practice)
 - 🔗 [https://docs.docker.com/engine/install/linux-postinstall/](https://docs.docker.com/engine/install/linux-postinstall/)
+
