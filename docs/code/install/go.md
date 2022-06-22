@@ -1,5 +1,5 @@
 ---
-title: Go
+title: 🐭 Go
 ---
 
 ```:no-line-numbers

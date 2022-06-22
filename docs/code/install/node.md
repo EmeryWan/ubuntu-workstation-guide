@@ -1,5 +1,6 @@
 ---
 title: 🪀 Node
+sidebarDepth: 1
 ---
 
 ```:no-line-numbers
@@ -26,15 +27,15 @@ title: 🪀 Node
   - 尝鲜
 
 
-## 从 apt 安装
+## APT 安装
 
 从 `Ubuntu` 的[软件源](https://packages.ubuntu.com/search?keywords=nodejs&searchon=names)中，已经包含了 `Node.js`，但是只能安装指定版本，例如：
 
-- Ubuntu 18.04 -> 8.10.0
+- Ubuntu 18.04 -> node 8.10.0
 
-- Ubuntu 20.04 -> 10.19.0
+- Ubuntu 20.04 -> node 10.19.0
 
-- Ubuntu 22.04 -> 12.22.9
+- Ubuntu 22.04 -> node 12.22.9
 
 ```sh
 sudo apt install nodejs npm

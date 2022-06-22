@@ -1,5 +1,6 @@
 ---
 title: 🐳 Docker
+sidebarDepth: 1
 ---
 
 ```:no-line-numbers

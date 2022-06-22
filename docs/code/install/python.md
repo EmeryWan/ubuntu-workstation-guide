@@ -22,7 +22,7 @@ title: 🐍 Python
 <br>
 🌰 假设，当前正在使用 <code>Ubuntu 16.04</code>，为了使用 <code>Python 3.8</code>，进行了直接安装，并替换了默认 <code>Python</code> 版本，由于 <code>Python</code> 不同版本间部分 API 的调整和一些兼容性问题，会导致部分命令无法运行。🌰 例如，进行如上操作后系统自带的 <code>Terminal</code> 桌面应用无法打开（由于 API 调整，无法运行打开应用的脚本）。<br>
 <br>
-<span style="color: red">强烈建议非必要原因，不要使用系统自带的 <code>Python</code> 环境，而是使用工具创建虚拟环境。</span>
+<span style="color: red">强烈建议非必要原因，不要使用系统自带的 Python 环境，而是使用工具创建虚拟环境。</span>
 :::
 
 
