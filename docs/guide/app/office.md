@@ -32,7 +32,7 @@ Ubuntu 安装第三方软件并没有 Arch 那样方便，如果 apt 中没有�
 
 
 
-## office
+## 🍦 office
 
 
 - WPS Office
@@ -50,7 +50,7 @@ sudo apt install libreoffice
 ```
 
 
-## markdown
+## 🍧 markdown
 
 - vs code
 
@@ -75,18 +75,18 @@ sudo apt install code # or code-insiders
 
 
 
-## xmind
+## 🍨 xmind
 
 下载地址：[传送门➡️](https://www.xmind.cn/download/)
 
 
-## drawio
+## 🍩 drawio
 
 在线地址：[传送门➡️](https://app.diagrams.net/?src=about)
 
 下载地址：[传送门➡️](https://github.com/jgraph/drawio-desktop/releases)
 
-## 线上会议
+## 🧁 线上会议
 
 - 腾讯会议
 
@@ -101,7 +101,7 @@ sudo apt install code # or code-insiders
 下载地址：[传送门➡️](https://zoom.us/download?os=linux)
 
 
-## 邮件
+## 🥧 邮件
 
 - Thunderbird
 
@@ -115,7 +115,7 @@ sudo apt install thunderbird
 
 
 
-## 远程桌面
+## 🍬 远程桌面
 
 - teamviewer
 
@@ -130,6 +130,4 @@ sudo apt install thunderbird
 - todesk
 
 下载地址：[传送门➡️](https://www.todesk.com/download.html)
-
-
 

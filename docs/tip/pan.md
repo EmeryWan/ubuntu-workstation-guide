@@ -3,7 +3,7 @@
 
 ```:no-line-numbers
  ____________________________________
-< 在 ubuntu 中安装 Python 环境 >
+< 在 ubuntu 中搭建局域网盘 >
  ------------------------------------
         \   ^__^
          \  (**)\_______
@@ -12,4 +12,8 @@
                 ||     ||
 ```
 
-https://zhuanlan.zhihu.com/p/44103820
+TODO
+
+## 参考
+
+- [https://zhuanlan.zhihu.com/p/44103820](https://zhuanlan.zhihu.com/p/44103820)

@@ -1,5 +1,6 @@
 ---
 title: 常用内容
+sidebarDepth: 1
 ---
 
 
@@ -23,9 +24,9 @@ title: 常用内容
 本节内容主要介绍一些在日常使用时，经常需要的内容。持续更新中。
 :::
 
-## 软件安装
+## 🍫 软件安装
 
-### 🍫 dpkg
+### dpkg
 
 `Debian Packager`，为 Debian 专门开发的套件管理系统。Ubuntu 使用 `dpkg` 安装、卸载 `.deb` 软件包。
 
@@ -40,7 +41,7 @@ sudo dpkg -i package.deb
 
 ![dpkg-error](/images/docs/guide/base/dpkg-error.png)
 
-### 🍿 apt
+### apt
 
 高级打包工具 `Advanced Packaging Tools` ，是 Debian 及其衍生的 Linux 软件包管理器。Ubuntu 使用 `apt` 可以自动下载，配置，安裝二进制或者源代码格式的软件包。一下为常用命令:
 
@@ -62,7 +63,7 @@ sudo apt update curl
 sudo apt upgrade
 ```
 
-### 🍩 snap
+### snap
 
 `snap` 是 `Canoncial` 公司提出的新一代 `linux` 包管理工具，它类似一个容器拥有一个应用程序所有的文件和库，各个应用程序之间完全独立。
 
@@ -106,7 +107,7 @@ snap list
 
 
 
-### 🍪 二进制软件
+### 二进制软件
 
 Ubuntu 有些第三方软件只提供二进制执行文件（压缩包或 AppImage），而不是安装包或者 apt 源，这时候需要我们去自己解压文件，放在自定义目录，并进行配置。
 
@@ -166,15 +167,15 @@ Terminal=false
 StartupNotify=true
 ```
 
-## 快速打开终端
+## 🍿 快速打开终端
 
 使用快捷键：`ctrl + alt + t`
 
-## 在文件管理器中查看隐藏内容
+## 🍪 在文件管理器中查看隐藏内容
 
 以 `.` 开头的文件和文件夹通常会被隐藏，可以通过 `ctrl + h` 显示或隐藏这些内容。
 
-## 终端使用代理
+## 🍩 终端使用代理
 
 由于一些网络原因，有时候使用终端时，需要利用代理获得更好的体验，可以使用以下命令：
 
@@ -198,11 +199,11 @@ alias exp="export https_proxy=http://127.0.0.1:7890;export http_proxy=http://127
 配置完成后，`source .zhsrc / source .bashrc`，即可通过 `exp` 执行以上命令。
 
 
-## 其他
+## 🍯 其他
 
 想到了再加。。。
 
 
-## 参考
+## 🍪 参考
 
 - 🔗 [https://cn.ubuntu.com/blog/what-is-snap-application](https://cn.ubuntu.com/blog/what-is-snap-application)

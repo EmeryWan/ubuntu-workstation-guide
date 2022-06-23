@@ -19,7 +19,7 @@ title: 开发
 
 介绍安装方式
 
-## Jetbrains
+## 🍿 Jetbrains
 
 Jetbrains 全家桶就不多介绍了，根据需要下载对应的开发工具即可。
 
@@ -31,7 +31,7 @@ Jetbrains 全家桶就不多介绍了，根据需要下载对应的开发工具�
 
 [Toolbox App➡️](https://www.jetbrains.com/zh-cn/toolbox-app/)
 
-## 编辑器
+## 🥗 编辑器
 
 - vs code
 
@@ -78,7 +78,7 @@ sudo apt install sublime-text
 ```
 
 
-## 数据库
+## 🥪 数据库
 
 - datagrip（收费）
 
@@ -110,7 +110,7 @@ sudo snap install redis-desktop-manager
 下载地址：[传送门➡️](https://github.com/Studio3T/robomongo)
 
 
-## 网络
+## 🌮 网络
 
 - postman
 
@@ -126,7 +126,7 @@ snap install postman
 下载地址：[传送门➡️](https://www.charlesproxy.com/download/latest-release/)
 
 
-## 远程连接
+## 🌭 远程连接
 
 - remmina
 

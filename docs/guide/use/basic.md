@@ -22,13 +22,13 @@ title: 基础配置使用
 :::
 
 
-## 双系统时区问题
+## 🧋 双系统时区问题
 
 ```sh
 timedatectl set-local-rtc 1 --adjust-system-clock
 ```
 
-## 一些常用软件
+## 🫖 一些常用软件
 
 下面是一些是使用时经常需要的软件或依赖，推荐安装一下。
 
@@ -56,7 +56,7 @@ sudo apt install -y openssh-server openssh-client
 ```
 
 
-## 输入法
+## 🧉 输入法
 
 Ubuntu 安装中文时，会自带 `ibus` 输入法，若选择该输入法，推荐勾选内置词库 `设置 - 区域与语言 - 设置` 。
 
@@ -75,7 +75,7 @@ Ubuntu 安装中文时，会自带 `ibus` 输入法，若选择该输入法，�
 
 ![fcitx](/images/docs/guide/use/fcitx.png)
 
-## 触摸板
+## 🧃 触摸板
 
 如果使用的是笔记本，通常都会带有触控板。通常大部分触控板适配都不好，容易出现打字误触。推荐安装该插件：
 
@@ -88,7 +88,7 @@ Ubuntu 安装中文时，会自带 `ibus` 输入法，若选择该输入法，�
 
 
 
-## 字体
+## 🍶 字体
 
 如果需要添加字体（如 windows 下的字体），可以将字体复制到 `~/.local/share/fonts` 目录下。再使用以下命令刷新字体缓存：
 

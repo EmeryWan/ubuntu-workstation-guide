@@ -31,7 +31,7 @@ Ubuntu 安装第三方软件并没有 Arch 那样方便，如果 apt 中没有�
 
 
 
-## 音乐
+## 🍯 音乐
 
 - 网易云音乐
 
@@ -106,7 +106,7 @@ Cider：[传送门➡️](https://github.com/ciderapp/Cider)
 Apple-Music-Electron：[传送门➡️](https://github.com/ciderapp/Apple-Music-Electron)
 
 
-## 视频
+## 🍮 视频
 
 - VLC
 
@@ -128,7 +128,7 @@ sudo apt install mpv
 
 下载地址：[传送门➡️](https://github.com/cuiocean/ZY-Player/releases)
 
-## 游戏
+## 🥧 游戏
 
 - steam
 
@@ -137,7 +137,7 @@ sudo apt install steam
 ```
 
 
-## 安卓刷机
+## 🍪 安卓刷机
 
 如果有安卓刷机的需要，请参考：[传送门➡️](https://arch.icekylin.online/apps/android.html)
 

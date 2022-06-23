@@ -63,8 +63,8 @@ export default defineUserConfig({
           text: '基础知识',
           children: [
             '/guide/base/linux.md',
-            '/guide/base/ubuntu.md',
             '/guide/base/directory.md',
+            '/guide/base/ubuntu.md',
           ],
         },
         {

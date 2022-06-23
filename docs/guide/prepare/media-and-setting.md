@@ -1,5 +1,6 @@
 ---
 title: 安装介质和硬件设置
+sidebarDepth: 1
 ---
 
 

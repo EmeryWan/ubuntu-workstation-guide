@@ -15,7 +15,7 @@ title: 安装教程
 
 这里以安装当前最新的 `Ubuntu LTS 22.04` 为例。
 
-## 💾 从 U 盘启动
+## 🥑 从 U 盘启动
 
 通常我们可以通过以下两种方式之一从 U 盘启动系统：
 
@@ -48,7 +48,7 @@ title: 安装教程
 - 雷蛇 [传送门](https://mysupport.razer.com/app/answers/detail/a_id/1541/~/how-to-access-the-bios-settings-on-the-razer-blade)
 
 
-## 🚄 安装流程
+## 🍍 安装流程
 
 ### 进入系统
 
@@ -122,7 +122,7 @@ title: 安装教程
 之后移除 U 盘，点击 `ENTER`，即完成了安装。重启后即可进入硬盘中的系统。
 
 
-## 👨‍💻 安装完成设置
+## 🥭 安装完成设置
 
 安装完第一次重启后，建议先将 `apt` 更换为国内源再进行后续操作。
 

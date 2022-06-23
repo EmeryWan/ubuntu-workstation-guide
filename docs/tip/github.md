@@ -1,5 +1,5 @@
 ---
-title: github 国内加速
+title: Github 国内加速
 ---
 
 
@@ -13,7 +13,6 @@ title: github 国内加速
                 ||----w |
                 ||     ||
 ```
-
 
 
 ## 介绍
@@ -46,10 +45,6 @@ title: github 国内加速
 
 ![add](/images/docs/tip/github/add.png)
 
-::: tip  提示
-SwitchHost 当前（V4.1.1）版本 Linux 图片不能正常显示，下一个版本会修复。
-需要显示图片可修改 `.desktop` 文件或拉取最新代码编译。
-:::
 
 ## 参考
 
