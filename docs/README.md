@@ -28,6 +28,9 @@ features:
 footerHtml: true
 footer: '<span>
     <p>Copyright © 2022</p>
+    <p>
+    本网站由 <span class="youpai"><a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_black"><img style="width: 23px; vertical-align: middle;" src="images/youpai.svg"/> 又拍云 </a> 提供 CDN 加速</span>
+    </p>
     Powered by
     <a class="external-link" href="https://vuepress.vuejs.org/zh" rel="noopener noreferrer" target="_blank">
       VuePress

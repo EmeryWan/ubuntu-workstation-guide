@@ -18,7 +18,19 @@ sidebarDepth: 1
 
 # Linux 目录结构介绍
 
+Linux 是一个开源的系统，使得 Linux 发行版本有很多，利用 Linux 开发产品的团队也有很多，如果任由每个人都按照自己的想法来配置 Linux 系统文件目录，后期可能会产生诸多的管理问题。
+
+为了避免诸多使用者对 Linux 系统目录结构天马行空，Linux 基金会发布了 FHS 标准。多数 Linux 发行版系统都遵循这一标准。
+
+> FHS（Filesystem Hierarchy Standard），文件系统层次化标准，该标准规定了 Linux 系统中所有一级目录以及部分二级目录（/usr 和 /var）的用途。发布此标准的主要目的就是为了让用户清楚地了解每个目录应该存放什么类型的文件。
+
+几乎所有的 Linux 发行版都包含以下的目录结构：
+
 ![directory](/images/docs/guide/base/directory/directory.png)
+
+不同的发行版可能会添加一下独有的目录，例如 Ubuntu 中包含 `/snap` 来放置 snap 应用。
+
+![root](/images/docs/guide/base/directory/root.png)
 
 ## /bin
 
@@ -203,7 +215,7 @@ Unix Shared Resources
 
 例如系统桌面图标目录 `/user/share/applications`。
 
-## /usr/local
+### /usr/local
 
 用于本地安装软件的目标目录。从源代码安装的用户程序都将安装到这里。
 

@@ -31,8 +31,10 @@ xdg-user-dirs-gtk-update
 
 
 
-## 🍵 swap
+## 🍵 swapfile
 
+
+## SSH 远程连接
 
 
 ## 🍷 Gnome 插件
@@ -140,6 +142,10 @@ plugins=(
 
 具体使用请参考：[使用方式](https://arch.icekylin.online/apps/collaboration.html#%F0%9F%94%97-kde-connect)
 
+
+
+
 ## 🥤 参考
 
 - 🔗 [https://linux.cn/article-9447-1.html](https://linux.cn/article-9447-1.html)
+
