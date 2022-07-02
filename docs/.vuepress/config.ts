@@ -3,7 +3,7 @@ import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
   lang: 'zh-CN',
-  base: '/',
+  base: '/ubuntu-workstation-guide/',
   title: 'ubuntu 简明指南',
   description: '使用 ubuntu 作为日常 工作 🧑🏻‍💻 娱乐 🍿 的系统',
 
