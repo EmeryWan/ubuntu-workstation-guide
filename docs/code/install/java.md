@@ -1,5 +1,6 @@
 ---
 title: ☕️ Java
+sidebarDepth: 1
 ---
 
 ```:no-line-numbers

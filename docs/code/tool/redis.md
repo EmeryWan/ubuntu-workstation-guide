@@ -1,5 +1,6 @@
 ---
 title: 📚 Redis
+sidebarDepth: 1
 ---
 
 
@@ -15,7 +16,7 @@ title: 📚 Redis
 ```
 
 
-## 从 ubuntu 软件源安装
+## APT 安装
 
 在 ubuntu 的软件源中，已经包含了 Redis 数据库。
 

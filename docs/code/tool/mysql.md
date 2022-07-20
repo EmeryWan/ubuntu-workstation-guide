@@ -1,5 +1,6 @@
 ---
 title: 🐬 MySQL
+sidebarDepth: 1
 ---
 
 ```:no-line-numbers
@@ -14,7 +15,7 @@ title: 🐬 MySQL
 ```
 
 
-## 从 ubuntu 软件源安装
+## APT 安装
 
 在 ubuntu 的软件源中，已经包含了 MySQL 数据库。
 

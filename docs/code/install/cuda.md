@@ -1,5 +1,6 @@
 ---
 title: 📗 CUDA
+sidebarDepth: 1
 ---
 
 
