@@ -164,7 +164,6 @@ under the License.
       <name>阿里云公共仓库</name>
       <url>https://maven.aliyun.com/repository/public</url>
     </mirror>
-    <mirror>
 
     <mirror>
       <id>maven-default-http-blocker</id>

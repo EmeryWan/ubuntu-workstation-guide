@@ -127,6 +127,8 @@ export default defineUserConfig({
           text: '推荐',
           children: [
             '/tip/github.md',
+            '/tip/top_linux_commands.md',
+            '/tip/resourse.md'
           ],
         },
         {
