@@ -1,5 +1,6 @@
 ---
 title: 🏴 ZooKeeper
+sidebarDepth: 1
 ---
 
 
@@ -15,7 +16,7 @@ title: 🏴 ZooKeeper
 ```
 
 
-## 二进制文件
+## 安装文件
 
 [ZooKeeper Releases](https://zookeeper.apache.org/releases.html)
 
@@ -41,7 +42,7 @@ ${YOUR_PATH}/bin/zkServer.sh status
 ${YOUR_PATH}/bin/zkCli.sh -server 127.0.0.1:2181
 ```
 
-## Docker
+## 使用 Docker 安装
 
 [dockerhub ZooKeeper 地址 🔗](https://hub.docker.com/_/zookeeper)。
 

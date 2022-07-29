@@ -1,5 +1,6 @@
 ---
 title: 🐍 Python
+sidebarDepth: 1
 ---
 
 ```:no-line-numbers

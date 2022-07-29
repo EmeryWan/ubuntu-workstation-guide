@@ -96,12 +96,23 @@ export default defineUserConfig({
             '/code/install/node.md',
             '/code/install/python.md',
             '/code/install/go.md',
-            '/code/install/docker.md',
-            '/code/install/mysql.md',
-            '/code/install/redis.md',
-            '/code/install/mongodb.md',
-            '/code/install/nginx.md',
             '/code/install/cuda.md',
+          ],
+        },
+        {
+          text: '工具',
+          children: [
+            '/code/tool/docker.md',
+            '/code/tool/mysql.md',
+            '/code/tool/redis.md',
+            '/code/tool/mongodb.md',
+            '/code/tool/rabbitmq.md',
+            '/code/tool/rocketmq.md',
+            '/code/tool/kafka.md',
+            '/code/tool/zookeeper.md',
+            '/code/tool/elasticsearch.md',
+            '/code/tool/nginx.md',
+            '/code/tool/tomcat.md',
           ],
         },
         {
@@ -117,6 +128,8 @@ export default defineUserConfig({
           text: '推荐',
           children: [
             '/tip/github.md',
+            '/tip/top_linux_commands.md',
+            '/tip/resourse.md'
           ],
         },
         {
