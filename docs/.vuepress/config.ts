@@ -112,6 +112,7 @@ export default defineUserConfig({
             '/code/tool/zookeeper.md',
             '/code/tool/elasticsearch.md',
             '/code/tool/nginx.md',
+            '/code/tool/tomcat.md',
           ],
         },
         {
