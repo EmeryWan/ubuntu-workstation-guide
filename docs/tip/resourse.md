@@ -3,6 +3,17 @@ title: 130个资源网站，总有一个你用得着
 sidebarDepth: 1
 ---
 
+```:no-line-numbers
+ ______________________________
+< 130个资源网站，总有一个你用得着 >
+ ------------------------------
+        \   ^__^
+         \  (..)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
+
 ::: tip 提示
 本文内容来自于：[https://henleylee.github.io/posts/2020/bd0b5ffe.html](https://henleylee.github.io/posts/2020/bd0b5ffe.html)
 :::
