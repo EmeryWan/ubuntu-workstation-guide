@@ -16,7 +16,7 @@ sidebarDepth: 1
 ```
 
 
-## 二进制文件
+## 安装文件
 
 [ZooKeeper Releases](https://zookeeper.apache.org/releases.html)
 
