@@ -52,6 +52,10 @@ sudo apt install libreoffice
 
 ## 🍧 markdown
 
+- marktext
+
+跨平台，下载地址 [传送门➡️](https://github.com/marktext/marktext)
+
 - vs code
 
 下载地址：[传送门➡️](https://code.visualstudio.com/Download)

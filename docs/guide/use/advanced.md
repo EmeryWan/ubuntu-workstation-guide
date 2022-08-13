@@ -34,7 +34,7 @@ xdg-user-dirs-gtk-update
 ## 🍵 swapfile
 
 
-## SSH 远程连接
+## 🍾    SSH 远程连接
 
 
 ## 🍷 Gnome 插件
