@@ -78,7 +78,7 @@ cd ${DOWNLOAD_PATH}
 sudo apt install ./{DEB_FILE_NAME}.deb
 ```
 
-`.deb` 格式的 JDK 文件通常会安装在 `/use/lib/jvm` 目录下。
+`.deb` 格式的 JDK 文件通常会安装在 `/usr/lib/jvm` 目录下。
 
 - 🌰 假设选择下载 `.tat.gz` 文件，可以根据以下命令安装：
 
