@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-366af6a1","path":"/code/tool/kafka.html","title":"\u{1F1F0} Kafka","lang":"zh-CN","frontmatter":{"title":"\u{1F1F0} Kafka","sidebarDepth":1},"excerpt":"","headers":[],"git":{"updatedTime":1659110717000},"filePathRelative":"code/tool/kafka.md"}');export{a as data};
