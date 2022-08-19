@@ -30,9 +30,17 @@ Gnome 桌面有一个专门的主题网站，可以在这里找到非常多优�
 
 ## 💐 主题
 
+将下载的主题移动到 `${HOME}/.themes` 文件夹下，即可通过 gnome-tweaks 选择自定义主题。
+
+![theme](/images/docs/guide/use/theme.png)
+
 ## 🌺 图标
 
+将下载的图标主题移动到 `${HOME}/.icons` 文件夹下，即可通过 gnome-tweaks 选择自定义图标。
+
 ## 🌼 鼠标指针
+
+将下载的鼠标指针主题移动到 `${HOME}/.icons` 文件夹下，即可通过 gnome-tweaks 选择自定义鼠标指针。
 
 ## 🌻 QT 应用
 
@@ -45,8 +53,8 @@ sudo apt install -y qt5ct qt5-style-kvantum
 
 在 Kvantum 中选择需要更改的主题样式：
 
-![fcitx](/images/docs/guide/use/kvantum.png)
+![kvantum](/images/docs/guide/use/kvantum.png)
 
 再到 Qt5 配置工具中激活 Kvantum:
 
-![fcitx](/images/docs/guide/use/qt5ct.png)
+![qt5ct](/images/docs/guide/use/qt5ct.png)

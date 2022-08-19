@@ -27,10 +27,12 @@ features:
     details: 
 footerHtml: true
 footer: '<span>
-    <p>Copyright © 2022</p>
+    <span>Copyright © 2022</span> | <span> <a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">赣ICP备19004365号-3</a> </span>
+
     <p>
     本网站由 <span class="youpai"><a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_black"><img style="width: 23px; vertical-align: middle;" src="images/youpai.svg"/> 又拍云 </a> 提供 CDN 加速</span>
     </p>
+    
     Powered by
     <a class="external-link" href="https://vuepress.vuejs.org/zh" rel="noopener noreferrer" target="_blank">
       VuePress
@@ -53,11 +55,10 @@ footer: '<span>
 
 ## 🎈 特别声明
 
-🖌 本作品旨在如何安装和配置 Ubuntu 系统，并应用在**日常使用**，提供一些使用帮助，或配置建议，并不适合于严格的生产环境。
+🖌 本作品旨在如何安装和配置 Ubuntu 系统，并应用在**日常使用**，提供一些使用帮助，或配置建议。
 
-🖍 其中部分内容，可能会存在错误，希望大家谅解，欢迎大家指正。
+🖍 其中部分内容，可能会存在一些错误，欢迎大家指正。
 
-🖊 部分内容和写作风格，参考了 [@NakanoMikuOrg/arch-guide](https://github.com/NakanoMikuOrg/arch-guide)。如果你想要使用 Arch 作为常用的操作系统，可以参考 [archlinux 简明指南](https://arch.icekylin.online/)，作者写的非常详细。
 
 ## 📖 版权说明
 
