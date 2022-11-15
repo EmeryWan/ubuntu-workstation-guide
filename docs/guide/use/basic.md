@@ -16,7 +16,6 @@ title: 基础配置使用
 
 
 
-
 ::: tip  提示
 以下内容会带有本人使用习惯，仅作为一个参考，请根据自身情况选择。
 :::
@@ -100,9 +99,10 @@ sudo fc-cache -f -v
 有些网页没有考虑 Ubuntu 下字体显示，显示效果不佳，推荐添加以下字体：
 
 - [PingFang SC](http://xiazaiziti.com/55657.html)
-- microsoft yahei ui
 - [microsoft yahei](http://xiazaiziti.com/1107.html)
 
+
+## 😀 Emoji
 
 在某些软件内，可能会有 emoji 显示不正常的问题，可以通过安装 emoji 字体解决：
 

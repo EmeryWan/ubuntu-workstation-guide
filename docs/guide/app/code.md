@@ -167,3 +167,6 @@ rm -f finalshell_install_linux.sh ;wget www.hostbuf.com/downloads/finalshell_ins
 
 下载地址：[传送门➡️](https://www.termius.com/linux)
 
+- WindTerm
+
+下载地址：[传送门➡️](https://github.com/kingToolbox/WindTerm)

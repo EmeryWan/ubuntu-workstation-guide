@@ -24,37 +24,36 @@ title: 硬件选择
 - 可访问的互联网
 - 光驱或USB安装介质
 
-该配置虽然看起来不高，但是如果想在日常流畅地使用最新版本的 Gnome 桌面，还是需要一定的硬件要求的。
+该配置虽然看起来不高，但是如果想在日常流畅地使用最新版本的 Gnome 桌面，还是需要一定的硬件要求。
 
-如果使用 `Ubuntu` 系统是为了（非常）老旧的硬件流畅运行，推荐安装更轻量的桌面环境，如 `xfce`。[了解更多](/guide/prepare/distribution.html)
+如果使用 Ubuntu 系统是为了再次（非常）老旧的硬件，推荐安装更轻量的桌面环境，如 `xfce`。[了解更多](/guide/prepare/distribution.html)
 
 
 ## 🧁 推荐的硬件
 
-🍊 正常情况下，市面上所贩卖的台式机 / 笔记本都可以成功安装 `Ubuntu`。
+🍊 正常情况下，市面上所贩卖的台式机 / 笔记本都可以成功安装 Ubuntu。
 
-由于 `Ubuntu` 是定期发行版本的更新方式，不同于滚动更新，若某些最新发布的 CPU，显卡，网卡等硬件有了较大大的改变，可能会出现一些不兼容的情况，需要安装后升级至支持的内核。
+由于 Ubuntu 是定期发行版本的更新方式，不同于滚动更新，若某些最新发布的 CPU，显卡，网卡等硬件有了较大大的改变，可能会出现一些不兼容的情况。新的硬件平台推荐安装最新版本系统，或者安装后升级至支持的内核。
 
 
 
 🍋 通常台式电脑的兼容性相较于笔记本会好很多。
 
-
 笔记本厂商通常都会对硬件和 BIOS 进行定制，大部分不会在 Linux 下进行测试或优化，容易出现无法休眠，声卡无法自动切换等情况。
 
-遇到这种情况，可以善用搜索引擎寻求帮助。
+遇到这种情况，可以善用[搜索引擎](https://www.bing.com)寻求帮助。
 
-例如，若您使用的设备为 Surface 系列，可以找到如下的支持：[@linux-surface/linux-surface](https://github.com/linux-surface/linux-surface)
+例如 🌰，若您使用的设备为 Surface 系列，您可以在网络上找到如下的支持：[@linux-surface/linux-surface](https://github.com/linux-surface/linux-surface)
 
 ![surface](/images/docs/guide/prepare/hardware/surface.png)
 
-🍓 如果想要有完美的 `Ubuntu` 使用体验，可以选择 `Ubuntu` 认证的硬件。
 
-可以在此处（[传送门](https://ubuntu.com/certified)）查找到认证的硬件，包含了[笔记本](https://ubuntu.com/certified/laptops)，[台式机](https://ubuntu.com/certified/desktops)，[服务器](https://ubuntu.com/certified/servers)，[嵌入式设备](https://ubuntu.com/certified/devices)，[Soc](https://ubuntu.com/certified/socs)。
+🍓 如果想要有完美的 Ubuntu 使用体验，可以选择购买 Ubuntu 认证的硬件。
+
+可以在此处（[传送门](https://ubuntu.com/certified)）查找到认证的硬件，包含了[💻笔记本](https://ubuntu.com/certified/laptops)，[🖥台式机](https://ubuntu.com/certified/desktops)，[⌨️服务器](https://ubuntu.com/certified/servers)，[⌚️嵌入式设备](https://ubuntu.com/certified/devices)。
 
 
 ![certified](/images/docs/guide/prepare/hardware/certified.png)
 
 
-大部分商用性质的设备，会对 `Ubuntu` 有较好的支持。
-
+通常大部分商用性质的设备，会对 Ubuntu 有较友好的支持。
