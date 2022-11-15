@@ -100,7 +100,7 @@ TODO，推荐先参考：
 
 - 关闭 `Security Boot`
 
-- 打开虚拟化（推荐）
+- 开启虚拟化（推荐）
 
   - `Intel Virtual Technology`（Intel）
 

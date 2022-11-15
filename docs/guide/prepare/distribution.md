@@ -16,18 +16,14 @@ title: ubuntu 桌面发行版
 
 ## 🍢 Ubuntu 风味版
 
-[Ubuntu](https://ubuntu.com/) 是基于 Debian 的 Linux 发行版，Ubuntu 桌面系统依据默认使用的桌面有很多分支。
+[Ubuntu](https://ubuntu.com/) 是基于 Debian 的 Linux 发行版，Ubuntu 桌面系统依据默认使用的桌面有很多分支。 Ubuntu 官方使用的 Gnome 桌面。
 
-Ubuntu 官方使用的 Gnome 桌面。
-
-默认桌面环境为 KDE 的为 `Kubuntu`，默认桌面环境为 Xfce 的为 `Xubuntu`，还有如 `Ubuntu Mate`，`Lubuntu` 等。
-
-可以根据自己喜欢的类型，或者硬件等情况，选择不同的桌面。
+默认桌面环境为 KDE 的被称为 `Kubuntu`，默认桌面环境为 Xfce 的被称为 `Xubuntu`，还有如 `Ubuntu Mate`，`Lubuntu` 等。 可以根据自己喜欢的类型，或者硬件等情况，选择不同的桌面。
 
 当然，Ubuntu 系统是自由的，我们也可以安装后，自行安装安装想要的桌面如 `i3wm`。
 
 :::tip
-如果没有特殊需求或喜好的话，推荐可以使用官方 Ubuntu，Gnome 对使用网络代理比较友好，适合想要一个 “良好的” 网络，但不想太折腾的情况。
+如果没有特殊需求或喜好的话，新手用户推荐可以使用官方 Ubuntu，Gnome 对使用网络代理比较友好，适合想要一个 “良好的” 网络，但不想太折腾的情况。
 :::
 
 
