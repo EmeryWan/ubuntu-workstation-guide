@@ -1,5 +1,6 @@
 ---
 title: 基础配置使用
+sidebarDepth: 1
 ---
 
 
@@ -16,7 +17,7 @@ title: 基础配置使用
 
 
 
-::: tip  提示
+::: tip 📝 写在最前
 以下内容会带有本人使用习惯，仅作为一个参考，请根据自身情况选择。
 :::
 
@@ -29,7 +30,7 @@ timedatectl set-local-rtc 1 --adjust-system-clock
 
 ## 🫖 一些常用软件
 
-下面是一些是使用时经常需要的软件或依赖，推荐安装一下。
+下面是一些是经常需要的软件或依赖，推荐安装一下。
 
 ```sh
 # vim
@@ -70,9 +71,20 @@ Ubuntu 安装中文时，会自带 `ibus` 输入法，若选择该输入法，�
 - [百度输入法](https://srf.baidu.com/site/guanwang_linux/index.html)
 
 
-如果选择 `fcitx` 引擎输入法（如搜狗），安装完成后，需要将 `键盘输入法系统` 选择为 `fcitx`，注销 / 重启后生效。
+如果选择 `fcitx` 引擎输入法（如搜狗），安装完成后，需要将 `键盘输入法系统` 选择为 `fcitx`，重启后生效。
 
 ![fcitx](/images/docs/guide/use/fcitx.png)
+
+
+::: tip 🛠 提示
+使用 `.deb` 安装搜狗输入法后，会缺失依赖，可以通过 `sudo apt install -f` 进行安装。
+
+由于还是使用 Fcitx4，在 22.04 中可能会没有 GUI 界面，可以在终端执行 `/opt/sogoupinyin/files/bin/sogoupinyin-service`，根据报错信息安装依赖。
+:::
+
+
+
+
 
 ## 🧃 触摸板
 

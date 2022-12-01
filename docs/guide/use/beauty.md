@@ -14,9 +14,16 @@ title: 美化
                 ||     ||
 ```
 
-::: tip 建议
-Ubuntu 的玩法很多，很多人都热衷于折腾桌面，但是强烈建议不要在这类简单的视觉功能上做时间浪费。把 Ubuntu / Linux 当效率工具使用，而不是可以 DIY 的桌面系统，尽量少的折腾系统配置，多的折腾效率工具，系统只是个工具。
+::: tip 📝 写在最前
+每个人使用 Ubuntu 的目的不同，一些人热衷于折腾桌面，以获取使用上的视觉体验，尊重每个人的选择。
+
+假如您和我一样，使用 Ubuntu / Linux 是当做工具，不在意使用桌面，可以不在这类美化上花费过多的时间。少折腾系统配置，多折腾效率工具，在这里系统只是个工具。
 :::
+
+
+
+
+Gnome 桌面有一个专门的主题网站，可以在这里找到非常多优秀的主题：[传送门➡️](https://www.gnome-look.org/browse/)
 
 
 ```sh
@@ -24,9 +31,10 @@ Ubuntu 的玩法很多，很多人都热衷于折腾桌面，但是强烈建议�
 sudo apt install -y gnome-tweaks gnome-shell-extensions
 ```
 
-Gnome 桌面有一个专门的主题网站，可以在这里找到非常多优秀的主题：[传送门➡️](https://www.gnome-look.org/browse/)
 
-建议只美化一下主题、图标、鼠标指针即可。如果你是新手，建议尽量不要更改 GRUB，以免引起不必要的麻烦。
+下面的内容只是简单介绍一下只美化主题、图标、鼠标指针等。
+
+🚧 如果你是新手，建议尽量不要更改 GRUB，以免引起不必要的麻烦。
 
 ## 💐 主题
 
@@ -37,6 +45,17 @@ Gnome 桌面有一个专门的主题网站，可以在这里找到非常多优�
 ## 🌺 图标
 
 将下载的图标主题移动到 `${HOME}/.icons` 文件夹下，即可通过 gnome-tweaks 选择自定义图标。
+
+推荐一个常用的图标主题 [🦶 papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)，可以通过 PPA 进行安装。
+
+![papirus](/images/docs/guide/use/papirus.png)
+
+```sh
+sudo add-apt-repository ppa:papirus/papirus
+sudo apt-get update
+sudo apt-get install papirus-icon-theme
+```
+
 
 ## 🌼 鼠标指针
 
@@ -58,3 +77,8 @@ sudo apt install -y qt5ct qt5-style-kvantum
 再到 Qt5 配置工具中激活 Kvantum:
 
 ![qt5ct](/images/docs/guide/use/qt5ct.png)
+
+
+## 🪷 其他
+
+如果您使用的 KDE 桌面，可以参考 [arch.icekylin.online](https://arch.icekylin.online/advanced/beauty-1.html) 的内容。
