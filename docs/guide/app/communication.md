@@ -16,18 +16,19 @@ title: 通讯
 ```
 
 ::: tip  提示
-Ubuntu 安装第三方软件并没有 Arch 那样方便，如果 apt 中没有的话，只能去网络上搜索下载，或逐个添加 ppa。好在 Linux 下的这些软件不怎么会更新，只有第一次安装的时候麻烦点。
+Ubuntu 安装第三方应用并没有 Arch 那样方便，如果 PPA 中没有的话，只能去网络上搜索下载，或逐个添加 PPA。好在 Linux 下的大部分应用不怎么更新，只有第一次安装的时候麻烦点。
 
-你可以在这里找到一些常用软件的 PPA：[传送门](https://www.ubuntuupdates.org/ppas)
+你可以在这里找到一些常用应用的 PPA：[传送门](https://www.ubuntuupdates.org/ppas)
 
 ---
 
-当前（写这篇文档的时候），Ubuntu 22.04 刚刚发布，可能部分软件有兼容性问题（如网易云音乐），请尽量下载最新版本确保兼容。善用搜索引擎，利用关键字 `ubuntu 22.04 软件名` 寻找相应的方法。
-:::
+想了解更多支持 Linux 的应用：
+- [Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software/blob/master/README_zh-CN.md)
+- [星火商店](https://www.spark-app.store/)
 
+---
 
-::: danger 更多
-想了解更多 Ubuntu 下可用的软件，请浏览：[Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software/blob/master/README_zh-CN.md)
+部分应用难免有兼容 / 依赖问题，新发行版请尽量下载最新版本确保兼容。请善用搜索引擎 🔍，如利用关键字 `ubuntu 版本号 应用名` 寻找相应的方法。
 :::
 
 

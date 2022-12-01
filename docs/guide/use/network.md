@@ -14,8 +14,6 @@ title: 网络
                 ||     ||
 ```
 
-加快网络速度。
-
 ## 🧭 CLW
 
 :::tip 推荐
@@ -95,3 +93,9 @@ StartupNotify=true
 
 ## 📡 Qv
 
+已停止维护。[传送门](https://github.com/Qv2ray/Qv2ray)
+
+
+## 🔮 CLV
+
+[传送门](https://github.com/zzzgydi/clash-verge)

@@ -1,6 +1,6 @@
 ---
 title: 常用内容
-sidebarDepth: 2
+sidebarDepth: 1
 ---
 
 

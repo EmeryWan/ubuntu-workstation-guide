@@ -116,6 +116,13 @@ export default defineUserConfig({
           ],
         },
         {
+          text: '国内镜像',
+          children: [
+            '/code/mirror/env.md',
+            '/code/mirror/download.md',
+          ],
+        },
+        {
           text: '开发',
           children: [
             '/code/coding/deep-learning.md',

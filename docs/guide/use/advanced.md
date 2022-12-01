@@ -1,5 +1,5 @@
 ---
-title: 进阶使用
+title: 进阶配置使用
 sidebarDepth: 1
 ---
 
@@ -18,16 +18,14 @@ sidebarDepth: 1
 
 ## 🥛 使用英文目录
 
-如果使用中文安装，用户目录下的目录名称都是中文的，如：`桌面，文档，下载` 等等，如果有终端操作，切换目录还是挺麻烦的，推荐将其改成英文的。
-
-可以使用如下命令更改：
+如果使用中文安装，用户目录下的目录名称都是中文的，如：`桌面，文档，下载` 等等，如果有终端操作，切换目录还是挺麻烦的，推荐将其改成英文。
 
 ```sh
 export LANG=en_US
 xdg-user-dirs-gtk-update
 ```
 
-更改后，可能会有弹窗询问是否要根据系统语言更改目录，选择保留英文即可。
+更改后，可能会有弹窗询问是否要根据系统语言更改目录，选择保留英文。
 
 
 
@@ -39,13 +37,9 @@ xdg-user-dirs-gtk-update
 
 ## 🍷 Gnome 插件
 
-本指南主要是介绍 `Gnome` 桌面的 `Ubuntu` 系统。该插件是 `Gnome` 桌面下的插件。
+为有一个更加易用的系统，安装插件可以方便我们的使用。你可以在 [Gnome extensions](https://extensions.gnome.org/) 查看到所有的插件。
 
-为有一个更加易用的系统，安装插件可以方便我们的使用。
-
-这里介绍使用使用浏览器安装扩展插件，虽然在 `apt` 中也能安装，但是只能获取到一部分，且版本较老。
-
-你可以在 [Gnome extensions](https://extensions.gnome.org/) 查看到所有的插件。
+这里介绍使用浏览器安装扩展插件，虽然在 PPA 中也能安装，但是只能获取到一部分，且版本较老。
 
 - 安装插件本地连接器
 
@@ -74,7 +68,7 @@ sudo apt install gnome-tweak
 这里推荐一些常用的插件，请按需选择：
 
 |插件|功能|
-|:-:|:-:|
+|:-|:-|
 |[User Themes](https://extensions.gnome.org/extension/19/user-themes/)|从用户目录加载 shell 主题。|
 |[Appindicator Support](https://extensions.gnome.org/extension/615/appindicator-support/)|向 Shell 添加 AppIndicator、KStatusNotifierItem 和旧版托盘图标支持|
 |[Removable Drive Menu](https://extensions.gnome.org/extension/7/removable-drive-menu/)|访问和卸载可移动设备的状态菜单。|
@@ -88,12 +82,13 @@ sudo apt install gnome-tweak
 |[Blyr](https://extensions.gnome.org/extension/1251/blyr/)|毛玻璃效果。|
 |[proxy-switcher](https://extensions.gnome.org/extension/771/proxy-switcher/)|在网络设置中定义的系统代理设置配置文件之间切换。|
 
-在 [Gnome extensions](https://extensions.gnome.org/) 可以找到很多实用的插件，如有使用 Docker 的话，也能找到管理 Docker 容器和镜像的[插件](https://extensions.gnome.org/extension/5103/docker/)，请根据需要查找。
+
+在 [Gnome extensions](https://extensions.gnome.org/) 可以找到很多实用的插件，如有使用 Docker 的话，也能找到管理 Docker 容器和镜像的[插件](https://extensions.gnome.org/extension/5103/docker/)，请根据需要安装。
 
 
 ## 🍾 终端
 
-配置好一个终端，可已让我们在使用的过程中更加方便。我通常会使用 [oh-my-zsh](https://ohmyz.sh/)。
+配置好一个终端，可已让我们在使用的过程中更加方便。通常我会使用 [oh-my-zsh](https://ohmyz.sh/)。
 
 当然有很多选择如：[fishshell](https://fishshell.com/)，[powerlevel10k](https://github.com/romkatv/powerlevel10k)，可以选择自己喜欢的进行配置。这里主要介绍 `oh-my-zsh` 的安装。
 
