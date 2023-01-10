@@ -13,14 +13,14 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: '18'
 
-      - name: Install and Build   
+      - name: Install and Build
         run: |
           npm install
           npm run docs:build
 
-      - name: Deploy  
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.ACCESS_TOKEN }}
