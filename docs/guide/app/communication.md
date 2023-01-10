@@ -36,21 +36,23 @@ Ubuntu 安装第三方应用并没有 Arch 那样方便，如果 PPA 中没有�
 
 ## 🥯 QQ
 
-Linux 下虽然提供了 QQ 客户端，但是是个上古版本，只能进行简单的通讯，应个急还是可以的。因为版本老旧，加上了能直接查看撤回消息 Buff。
+Linux 下 QQ 已经使用 electron 进行了重构，与 mac 上的是同一版本，推荐使用官方版本。下载地址：[传送门➡️](https://im.qq.com/linuxqq/index.html)
 
-下载地址：[传送门➡️](https://im.qq.com/linuxqq/index.html)
-
-如果想要更好的体验可以选择以下方式安装 windows 下的 QQ，有风险的尽量少折腾：
-
-- [优麒麟 wine-qq](https://www.ubuntukylin.com/applications/107-cn.html)
-
-- [deepin-wine](https://github.com/zq1997/deepin-wine)
-
-- [docker-deepin](https://github.com/ygcaicn/docker-deepin)
+~~Linux 下虽然提供了 QQ 客户端，但是是个上古版本，只能进行简单的通讯，应个急还是可以的。因为版本老旧，加上了能直接查看撤回消息 Buff。~~
 
 
-- 虚拟机
-  - 我个人是直接在虚拟机里用，感觉使用 wine 的方式装太多依赖了，在学校经常要处理有格式要求的 word，还是直接用了虚拟机。
+
+~~如果想要更好的体验可以选择以下方式安装 windows 下的 QQ，有风险的尽量少折腾：~~
+
+- ~~[优麒麟 wine-qq](https://www.ubuntukylin.com/applications/107-cn.html)~~
+
+- ~~[deepin-wine](https://github.com/zq1997/deepin-wine)~~
+
+- ~~[docker-deepin](https://github.com/ygcaicn/docker-deepin)~~
+
+
+- ~~虚拟机~~
+  - ~~我个人是直接在虚拟机里用，感觉使用 wine 的方式装太多依赖了，在学校经常要处理有格式要求的 word，还是直接用了虚拟机。~~
 
 ## 🥞 微信
 

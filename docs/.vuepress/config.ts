@@ -79,6 +79,8 @@ export default defineUserConfig({
         {
           text: '常用软件',
           children: [
+            '/guide/app/how.md',
+            '/guide/app/source.md',
             '/guide/app/daily.md',
             '/guide/app/office.md',
             '/guide/app/communication.md',

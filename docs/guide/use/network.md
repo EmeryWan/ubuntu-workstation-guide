@@ -18,7 +18,7 @@ title: 网络
 
 :::tip 推荐
 推荐同时安装该插件：[proxy-switcher](https://extensions.gnome.org/extension/771/proxy-switcher/)
-可以在控制栏方便切换。
+可以在控制栏方便切换代理。
 :::
 
 CLW 是由 electron 开发的，同时也提供了 Linux 版本，使用起来与其他系统无几乎无差别。[传送门 ➡️](https://github.com/Fndroid/clash_for_windows_pkg/releases)
