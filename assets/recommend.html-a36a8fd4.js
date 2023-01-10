@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-96f0376c","path":"/tip/recommend.html","title":"一些推荐","lang":"zh-CN","frontmatter":{"title":"一些推荐","sidebarDepth":0},"headers":[{"level":2,"title":"Github","slug":"github","link":"#github","children":[]}],"git":{"updatedTime":1673352735000},"filePathRelative":"tip/recommend.md"}');export{t as data};
