@@ -86,7 +86,7 @@ sudo apt install gnome-tweak
 在 [Gnome extensions](https://extensions.gnome.org/) 可以找到很多实用的插件，如有使用 Docker 的话，也能找到管理 Docker 容器和镜像的[插件](https://extensions.gnome.org/extension/5103/docker/)，请根据需要安装。
 
 
-## 🍾 终端
+## 🍾 美化终端
 
 配置好一个终端，可已让我们在使用的过程中更加方便。通常我会使用 [oh-my-zsh](https://ohmyz.sh/)。
 
