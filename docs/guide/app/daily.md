@@ -48,7 +48,7 @@ Ubuntu 安装第三方应用并没有 Arch 那样方便，如果 PPA 中没有�
 
 ```sh
 wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
-sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
 sudo apt install -y google-chrome-stable
 ```
 
@@ -163,13 +163,15 @@ sudo apt install flameshot
 
 ```sh
 # 信任 Virtualbox 的 GPG 公钥
-wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
-# 更换为对应发行版
-# <mydist>  ->  20.04  ->  lsb_release -c  ->  focal
-echo "deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian <mydist> contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
+sudo gpg --dearmor oracle_vbox_2016.asc --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg
 
-# 推荐使用国内镜像，使用以下命令
-echo "deb [arch=amd64] http://mirrors.cloud.tencent.com/virtualbox/apt/ focal contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
+# 更换为对应发行版
+# lsb_release -c
+# <mydist>  ->  20.04  ->  focal
+# <mydist>  ->  22.04  ->  jammy
+# 推荐使用国内镜像
+echo "deb [arch=amd64] http://mirrors.cloud.tencent.com/virtualbox/apt/ <mydist> contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
+# echo "deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian <mydist> contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
 
 sudo apt install virtualbox
 ```

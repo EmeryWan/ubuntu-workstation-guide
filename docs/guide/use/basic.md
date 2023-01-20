@@ -34,7 +34,7 @@ timedatectl set-local-rtc 1 --adjust-system-clock
 
 ```sh
 # vim
-sudo apt install -y vim ctags vim-doc vim-scripts
+sudo apt install -y vim
 
 # curl wegt apt-transport-https 下载
 sudo apt install -y curl wget apt-transport-https
@@ -88,13 +88,15 @@ Ubuntu 安装中文时，会自带 `ibus` 输入法，若选择该输入法，�
 
 ## 🧃 触摸板
 
-如果使用的是笔记本，通常都会带有触控板。通常大部分触控板适配都不好，容易出现打字误触。推荐安装该插件：
+如果使用的是笔记本，通常都会带有触控板。通常大部分触控板适配都不好，容易出现打字误触。推荐安装该 gnome 插件：
 
-[传送门➡️](https://extensions.gnome.org/extension/131/touchpad-indicator/)
+可以给部分适配不好的触控板添加多点触控和禁用触控板的功能。
 
-[Github➡️](https://github.com/askmrsinh/touchpad-indicator#touchpadindicator)
 
-可以给部分适配不好的触控板添加多点触控，或手动禁用触控板的功能。
+[touchpad-indicator ➡️](https://extensions.gnome.org/extension/131/touchpad-indicator/)
+
+[Github ➡️](https://github.com/askmrsinh/touchpad-indicator#touchpadindicator)
+
 
 
 
@@ -111,7 +113,7 @@ sudo fc-cache -f -v
 有些网页没有考虑 Ubuntu 下字体显示，显示效果不佳，推荐添加以下字体：
 
 - [PingFang SC](http://xiazaiziti.com/55657.html)
-- [microsoft yahei](http://xiazaiziti.com/1107.html)
+- [Microsoft Yahei](http://xiazaiziti.com/1107.html)
 
 
 ## 😀 Emoji
