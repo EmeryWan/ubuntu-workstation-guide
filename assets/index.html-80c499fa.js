@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7553775c","path":"/guide/prologue/","title":"序言","lang":"zh-CN","frontmatter":{"title":"序言"},"headers":[],"git":{"updatedTime":1674213242000},"filePathRelative":"guide/prologue/index.md"}');export{e as data};
