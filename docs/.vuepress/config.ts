@@ -21,15 +21,15 @@ export default defineUserConfig({
     navbar: [
       {
         text: '开始使用 👏',
-        link: '/guide/'
+        link: '/guide/',
       },
       {
         text: '开发相关 💻',
-        link: '/code/'
+        link: '/code/',
       },
       {
         text: '推荐内容 🪁',
-        link: '/tip/'
+        link: '/tip/',
       }
     ],
 

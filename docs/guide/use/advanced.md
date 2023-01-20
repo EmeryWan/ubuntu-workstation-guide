@@ -35,56 +35,6 @@ xdg-user-dirs-gtk-update
 ## 🍹 SSH 远程连接
 
 
-## 🍷 Gnome 插件
-
-为有一个更加易用的系统，安装插件可以方便我们的使用。你可以在 [Gnome extensions](https://extensions.gnome.org/) 查看到所有的插件。
-
-这里介绍使用浏览器安装扩展插件，虽然在 PPA 中也能安装，但是只能获取到一部分，且版本较老。
-
-- 安装插件本地连接器
-
-```sh
-sudo apt install chrome-gnome-shell
-```
-
-- 安装浏览器扩展插件
-
-[Chrome](https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep)
-
-[Firefox](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/)
-
-如果没有合适的网络在 Chrome 中安装插件，推荐在 Firefox 中安装。
-
-- 安装插件管理器
-
-```sh
-sudo apt install gnome-tweak
-```
-
-- 根据需求安装插件
-
-插件的安装位置在：`~/.local/share/gnome-shell/extensions`
-
-这里推荐一些常用的插件，请按需选择：
-
-|插件|功能|
-|:-|:-|
-|[User Themes](https://extensions.gnome.org/extension/19/user-themes/)|从用户目录加载 shell 主题。|
-|[Appindicator Support](https://extensions.gnome.org/extension/615/appindicator-support/)|向 Shell 添加 AppIndicator、KStatusNotifierItem 和旧版托盘图标支持|
-|[Removable Drive Menu](https://extensions.gnome.org/extension/7/removable-drive-menu/)|访问和卸载可移动设备的状态菜单。|
-|[caffeine](https://extensions.gnome.org/extension/517/caffeine/)|禁用屏幕保护程序。|
-|[Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)|快速切换音频输入输出设备。|
-|[OpenWeather](https://extensions.gnome.org/extension/750/openweather/)|在 GNOME Shell 中显示地球上任何位置的天气信息|
-|[Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)|Gnome-Shell 的剪贴板管理器扩展 - 将剪贴板指示器添加到顶部面板，并缓存剪贴板历史记录。|
-|[Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)|Gnome Shell 的图标任务栏。|
-|[Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)|Gnome Shell 的扩展坞。|
-|[Simple net speed](https://extensions.gnome.org/extension/1085/simple-net-speed/)|显示实时网速。|
-|[Blyr](https://extensions.gnome.org/extension/1251/blyr/)|毛玻璃效果。|
-|[proxy-switcher](https://extensions.gnome.org/extension/771/proxy-switcher/)|在网络设置中定义的系统代理设置配置文件之间切换。|
-
-
-在 [Gnome extensions](https://extensions.gnome.org/) 可以找到很多实用的插件，如有使用 Docker 的话，也能找到管理 Docker 容器和镜像的[插件](https://extensions.gnome.org/extension/5103/docker/)，请根据需要安装。
-
 
 ## 🍾 美化终端
 
